@@ -1,0 +1,1073 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="IBM DataPower Interact Gateway Technical Sales Level 3 Demo Guide">
+      
+      
+        <meta name="author" content="Anupama Taduri (anupama.taduri@ibm.com)">
+      
+      
+      
+        <link rel="prev" href="../overview/">
+      
+      
+        <link rel="next" href="../demo-guidelines/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Environment Setup - DataPower Interact Gateway Level 3</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#environment-setup" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DataPower Interact Gateway Level 3" class="md-header__button md-logo" aria-label="DataPower Interact Gateway Level 3" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DataPower Interact Gateway Level 3
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Environment Setup
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DataPower Interact Gateway Level 3" class="md-nav__button md-logo" aria-label="DataPower Interact Gateway Level 3" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DataPower Interact Gateway Level 3
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prerequisites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prerequisites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IBM DataPower Interact Gateway & ZillaForge
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment Setup
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-your-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requesting Your Environment
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requesting Your Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-log-in-to-ibm-techzone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — Log in to IBM TechZone
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-select-the-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — Select the Collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-navigate-to-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 — Navigate to Environments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-reserve-the-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4 — Reserve the Environment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-select-education" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5 — Select Education
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-fill-in-reservation-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6 — Fill in Reservation Details
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-submit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7 — Submit
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-your-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessing Your Environment
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessing Your Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-8-open-your-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8 — Open Your Reservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-9-open-the-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9 — Open the Environment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-10-find-your-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10 — Find Your Credentials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-11-bookmark-the-home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 11 — Bookmark the Home Page
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../demo-guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demo Guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demo Script
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Demo Script
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../demo-script/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview & Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../demo-script/ai-assistant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ZillaForge AI Assistant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-your-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requesting Your Environment
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requesting Your Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-log-in-to-ibm-techzone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — Log in to IBM TechZone
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-select-the-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — Select the Collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-navigate-to-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 — Navigate to Environments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-reserve-the-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4 — Reserve the Environment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-select-education" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5 — Select Education
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-fill-in-reservation-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6 — Fill in Reservation Details
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-submit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7 — Submit
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-your-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessing Your Environment
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessing Your Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-8-open-your-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8 — Open Your Reservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-9-open-the-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9 — Open the Environment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-10-find-your-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10 — Find Your Credentials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-11-bookmark-the-home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 11 — Bookmark the Home Page
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="environment-setup">Environment Setup</h1>
+<p>The DataPower Interact Gateway demo environment runs in the cloud and can be reserved using the steps outlined below. Once provisioned, you'll receive all necessary access credentials.</p>
+<div class="admonition warning">
+<p class="admonition-title">Disclaimer</p>
+<p>Please be careful to stay within the demo path. Do not deviate, as changes could affect other users and disrupt the demo environment. Let's ensure everything runs smoothly for everyone involved.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Note on Screenshots</p>
+<p>Because the platform is developed and updated continuously, its interface may evolve over time. Screenshots in this guide may differ slightly from what you see in the live environment, but the core functionality remains the same. If something looks different, take a moment to explore — it's part of the learning experience.</p>
+</div>
+<hr />
+<h2 id="requesting-your-environment">Requesting Your Environment</h2>
+<h3 id="step-1-log-in-to-ibm-techzone">Step 1 — Log in to IBM TechZone</h3>
+<p>Login to IBM TechZone at: <a href="https://techzone.ibm.com/search">https://techzone.ibm.com/search</a></p>
+<p>Search for <strong>DataPower Interact Gateway</strong> in the Search bar <strong>(A)</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/cfdcb999-c19b-4694-a70d-56bab4033e04/matched_image_action_8_51ae3835669043dc83a0870a009a7f3b_text_export.jpeg" /></p>
+<h3 id="step-2-select-the-collection">Step 2 — Select the Collection</h3>
+<p>Select the <strong>webMethods Hybrid Integration L3 Enablement</strong> in the results by clicking on <strong>Explore this collection (B)</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/b81cdbdd-9553-433e-8d39-6d62202e86aa/matched_image_action_9_829410f336ca4b88a4fd6efa6f30d0ac_text_export.jpeg" /></p>
+<h3 id="step-3-navigate-to-environments">Step 3 — Navigate to Environments</h3>
+<p>Select <strong>Environments (C)</strong> from the left-hand side menu.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/137241cd-3a47-4104-8eee-3f4c4f836021/matched_image_action_10_859a0769461f4493818e55f6d8cd193c_text_export.jpeg" /></p>
+<h3 id="step-4-reserve-the-environment">Step 4 — Reserve the Environment</h3>
+<p>Hover over the IBM Cloud environment button and click on <strong>Reserve it (D)</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/4d405ae1-7a2f-4aa3-a86d-776674fe6a77/matched_image_action_11_457759f8eec14392b097a70011d66da5_text_export.jpeg" /></p>
+<h3 id="step-5-select-education">Step 5 — Select Education</h3>
+<p>Select the <strong>Education</strong> tile <strong>(E)</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/ba1a8a10-515d-4f64-b64f-581b46b4cb19/matched_image_action_12_3d1c451f0d4b4cf6970fc37c3e5a13cf_text_export.jpeg" /></p>
+<h3 id="step-6-fill-in-reservation-details">Step 6 — Fill in Reservation Details</h3>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/6d3a2c51-d291-4462-9bb7-945350e2e355/matched_image_action_13_6de6652ec3dd4b13ac9e36f71d07bd09_text_export.jpeg" /></p>
+<p>Provide Description as <strong>self-enablement</strong> and choose other fields as shown below.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/42e68503-f27a-43bb-9a0a-73475fd056f1/matched_image_action_14_d18cea97d48e44c983f8e031ff4b23b7_text_export.jpeg" /></p>
+<h3 id="step-7-submit">Step 7 — Submit</h3>
+<p>Select the terms and conditions checkbox and click <strong>Submit (F)</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/4cc0ea81-1978-459c-bec5-b98d15c23b6c/matched_image_action_15_835009499ff74c738b09ee141d98796e_text_export.jpeg" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note to Learners</p>
+<p>You will receive an email when the environment is provisioned with instructions on how to access it. This action could take up to <strong>15–20 minutes</strong>.</p>
+</div>
+<hr />
+<h2 id="accessing-your-environment">Accessing Your Environment</h2>
+<h3 id="step-8-open-your-reservation">Step 8 — Open Your Reservation</h3>
+<p>Click on the <strong>View My Reservations (A)</strong> link in the provisioning email.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/1bf22aa4-9032-48f8-8716-fcc059de0b33/matched_image_action_17_89ba192fc29346cfb7dc48837f4cd0ad_text_export.jpeg" /></p>
+<h3 id="step-9-open-the-environment">Step 9 — Open the Environment</h3>
+<p>Click on <strong>Open this environment (B)</strong> on the reservation card.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/6152ca1f-f75d-4abe-80d5-d550f50d8421/matched_image_action_18_071c216dbbd24a6a9e2f43e869e257b3_text_export.jpeg" /></p>
+<h3 id="step-10-find-your-credentials">Step 10 — Find Your Credentials</h3>
+<p>Scroll down on the reservation details page to find the webMethods Hybrid Integration URL and credentials for B2B and MFT WebClient.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/5bcbae50-b1e3-4b30-85f6-7ecf66a3158d/matched_image_action_19_aa7d434ab0274e0e8f539552b1ccad7e_text_export.jpeg" /></p>
+<h3 id="step-11-bookmark-the-home-page">Step 11 — Bookmark the Home Page</h3>
+<p>Once you connect, bookmark the IBM webMethods Hybrid Integration home page. You should see the screen below.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/1b87ca4a-7806-4ac2-9276-927e7babb36c/matched_image_action_20_202a32caf76849cbbd414b756a8c4e60_text_export.jpeg" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: IBM DataPower Interact Gateway &amp; ZillaForge">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                IBM DataPower Interact Gateway & ZillaForge
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../demo-guidelines/" class="md-footer__link md-footer__link--next" aria-label="Next: Demo Guidelines">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Demo Guidelines
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 IBM
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.code.select", "navigation.footer", "navigation.sections", "navigation.top"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
