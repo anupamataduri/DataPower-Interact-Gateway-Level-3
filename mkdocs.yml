@@ -1,0 +1,59 @@
+# Project info
+site_name: DataPower Interact Gateway Level 3
+site_description: IBM DataPower Interact Gateway Technical Sales Level 3 Demo Guide
+site_author: Anupama Taduri (anupama.taduri@ibm.com)
+copyright: Copyright &copy; 2026 IBM
+
+# Repository
+repo_name: anupamataduri/DataPower-Interact-Gateway-Level-3
+docs_dir: docs
+
+nav:
+  - Introduction: 'index.md'
+  - Prerequisites: 'prerequisites.md'
+  - Overview:
+    - IBM DataPower Interact Gateway & ZillaForge: 'overview.md'
+  - Environment Setup: 'environment.md'
+  - Demo Guidelines: 'demo-guidelines.md'
+  - Demo Script:
+    - Overview & Architecture: 'demo-script/architecture.md'
+    - ZillaForge AI Assistant: 'demo-script/ai-assistant.md'
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - navigation.footer
+    - navigation.sections
+    - navigation.top
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - tables
