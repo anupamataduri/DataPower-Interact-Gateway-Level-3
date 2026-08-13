@@ -10,8 +10,8 @@ Learn how AI agents are changing the way organizations consume APIs, data, appli
 
 | Audience | Link |
 |----------|------|
-| IBMers | [YourLearning](https://yourlearning.ibm.com/activity/PLAN-EB2D00BC5EA6) |
-| Business Partners | [IBM Learn](https://learn.ibm.com/course/view.php?id=18910) |
+| IBMers | <a href="https://yourlearning.ibm.com/activity/PLAN-EB2D00BC5EA6" target="_blank">YourLearning</a> |
+| Business Partners | <a href="https://learn.ibm.com/course/view.php?id=18910" target="_blank">IBM Learn</a> |
 
 ---
 
@@ -21,8 +21,8 @@ Following Level 1, this course explores how IBM DataPower Interact Gateway helps
 
 | Audience | Link |
 |----------|------|
-| IBMers | [YourLearning](https://yourlearning.ibm.com/activity/PLAN-9354C9DCF412) |
-| Business Partners | [IBM Learn](https://learn.ibm.com/course/view.php?id=18943) |
+| IBMers | <a href="https://yourlearning.ibm.com/activity/PLAN-9354C9DCF412" target="_blank">YourLearning</a> |
+| Business Partners | <a href="https://learn.ibm.com/course/view.php?id=18943" target="_blank">IBM Learn</a> |
 
 ---
 
