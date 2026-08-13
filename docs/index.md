@@ -33,18 +33,6 @@ By following this guide, learners will be able to:
 
 ---
 
-## Table of Contents
-
-| Section | Description |
-|---------|-------------|
-| [Prerequisites](prerequisites.md) | Required courses before starting this lab |
-| [Overview](overview.md) | IBM DataPower Interact Gateway and ZillaForge introduction |
-| [Environment Setup](environment.md) | How to reserve and access the demo environment |
-| [Demo Guidelines](demo-guidelines.md) | Use case introduction and demo overview |
-| [Demo Script](demo-script/architecture.md) | Guided narration and step-by-step walkthrough |
-
----
-
 !!! note "Authors"
     - **Anupama Taduri** — anupama.taduri@ibm.com
     - **Matthew Barnes** — matthew.barnes1@ibm.com
