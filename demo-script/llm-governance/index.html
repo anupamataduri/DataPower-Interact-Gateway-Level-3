@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../../demo-guidelines/">
+        <link rel="prev" href="../mcp-tools/">
       
       
-        <link rel="next" href="../ai-assistant/">
+        <link rel="next" href="../analytics/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Overview & Architecture - DataPower Interact Gateway Level 3</title>
+        <title>LLM Governance - DataPower Interact Gateway Level 3</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview-and-architecture" class="md-skip">
+        <a href="#llm-governance" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview & Architecture
+              LLM Governance
             
           </span>
         </div>
@@ -454,37 +454,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Overview & Architecture
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../architecture/" class="md-nav__link">
         
   
   
@@ -500,70 +473,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#narration-1-the-zillaforge-challenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Narration 1 — The ZillaForge Challenge
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#narration-2-the-digital-business-platform" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Narration 2 — The Digital Business Platform
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#narration-3-the-governance-gap" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Narration 3 — The Governance Gap
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#narration-4-where-interact-gateway-fits" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Narration 4 — Where Interact Gateway Fits
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -629,10 +538,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../llm-governance/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LLM Governance
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -648,6 +584,136 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-open-ibm-api-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — Open IBM API Studio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-access-instance-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — Access Instance Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-view-secrets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 — View Secrets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-add-a-secret" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4 — Add a Secret
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-open-the-zfwatsonx-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5 — Open the ZFwatsonx Project
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-review-the-watsonx-connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6 — Review the watsonx Connection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-configure-operations-to-expose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7 — Configure Operations to Expose
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-open-the-policy-sequence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8 — Open the Policy Sequence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-9-review-identity-extraction-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9 — Review Identity Extraction Policy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-10-explore-the-full-policy-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10 — Explore the Full Policy Flow
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -715,10 +781,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#narration-1-the-zillaforge-challenge" class="md-nav__link">
+  <a href="#step-1-open-ibm-api-studio" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Narration 1 — The ZillaForge Challenge
+        Step 1 — Open IBM API Studio
       
     </span>
   </a>
@@ -726,10 +792,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#narration-2-the-digital-business-platform" class="md-nav__link">
+  <a href="#step-2-access-instance-settings" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Narration 2 — The Digital Business Platform
+        Step 2 — Access Instance Settings
       
     </span>
   </a>
@@ -737,10 +803,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#narration-3-the-governance-gap" class="md-nav__link">
+  <a href="#step-3-view-secrets" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Narration 3 — The Governance Gap
+        Step 3 — View Secrets
       
     </span>
   </a>
@@ -748,10 +814,76 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#narration-4-where-interact-gateway-fits" class="md-nav__link">
+  <a href="#step-4-add-a-secret" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Narration 4 — Where Interact Gateway Fits
+        Step 4 — Add a Secret
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-open-the-zfwatsonx-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5 — Open the ZFwatsonx Project
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-review-the-watsonx-connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6 — Review the watsonx Connection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-configure-operations-to-expose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7 — Configure Operations to Expose
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-open-the-policy-sequence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8 — Open the Policy Sequence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-9-review-identity-extraction-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9 — Review Identity Extraction Policy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-10-explore-the-full-policy-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10 — Explore the Full Policy Flow
       
     </span>
   </a>
@@ -775,44 +907,63 @@
 
 
 
-<h1 id="overview-and-architecture">Overview and Architecture</h1>
-<div class="admonition note">
-<p class="admonition-title">Slide Resources</p>
-<p>The slides used in this section and usage analytics can be found <a href="https://ibm.seismic.com/Link/Content/DC633F9fdp9cC89T3QDhmmmFGqWB">HERE</a>.</p>
-</div>
+<h1 id="llm-governance">LLM Governance</h1>
+<p>In this section, we explore how ZillaForge governs access to Large Language Model (LLM) providers through IBM DataPower Interact Gateway. Just as MCP tools govern AI interactions with enterprise services, Interact Gateway also governs how AI applications and agents access LLM capabilities — applying security, credential management, and policy enforcement at the gateway layer.</p>
 <hr />
-<h2 id="narration-1-the-zillaforge-challenge">Narration 1 — The ZillaForge Challenge</h2>
-<blockquote>
-<p>ZillaForge, a fictional global manufacturer of industrial automation equipment, is expanding its use of AI assistants and agents to improve productivity, automate decision-making, and accelerate business processes. The company has already invested heavily in APIs, integrations, workflows, and governance, creating a strong digital foundation of reusable business capabilities.</p>
-<p>As AI adoption grows, ZillaForge faces a new challenge. AI assistants and agents need access to those same enterprise capabilities, but traditional governance models were designed for applications, not autonomous AI interactions. The company needs a way to maintain visibility, security, and operational control as AI-driven activity scales across the business.</p>
-<p>To address these challenges, ZillaForge adopts IBM DataPower Interact Gateway. Acting as an AI mediation governance gateway, it helps the company govern AI interactions, expose existing enterprise capabilities to AI without rebuilding them, and apply consistent security, policy enforcement, and observability across AI-driven traffic. This demo follows ZillaForge's AI adoption journey, showing how Interact Gateway enables organizations to reuse existing APIs, integrations, and business services while bringing AI-initiated interactions under a consistent governance model.</p>
-</blockquote>
-<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/938d0203-4875-4a69-8b7c-f305b939f0f5/matched_image_action_24_08aa7bff03484e888102d1821b06afbc_text_export.jpeg" /></p>
+<h2 id="step-1-open-ibm-api-studio">Step 1 — Open IBM API Studio</h2>
+<p><strong>Action:</strong> Click <strong>IBM API Studio</strong> from the navigation.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/49d35161-8aa0-482c-8cb1-a33e94b32ac9/action-9c6fcca6f3c74553847fe76fa2aeb13f_01409570623240bd8e92222e0594cc47_text_export.jpeg" /></p>
 <hr />
-<h2 id="narration-2-the-digital-business-platform">Narration 2 — The Digital Business Platform</h2>
-<blockquote>
-<p>This illustration represents the architecture used in the ZillaForge demo and the digital foundation the company established before introducing AI. It shows how years of investment in APIs, application integration, events, governance, and reusable business services created a platform of enterprise capabilities that can now be safely consumed by AI assistants and agents.</p>
-<p>At the center of the architecture is the <strong>ZillaForge Digital Business Platform</strong>, governed through a <strong>Hybrid Control Plane</strong> that provides centralized visibility, management, analytics, and governance across cloud, on-premises, and edge environments. Around it are the core integration capabilities — including API management, application integration, event management, B2B integration, managed file transfer, and monitoring services — all working together as shared enterprise services.</p>
-<p>Rather than creating new capabilities for AI, ZillaForge can reuse the APIs, integrations, workflows, and business services it has already built and expose them as governed AI-ready capabilities.</p>
-<p>This architecture forms the foundation for the rest of the demo. Throughout the walkthrough, learners will see how ZillaForge extends its existing digital investments to support AI adoption while maintaining the governance, visibility, and operational control required at enterprise scale.</p>
-</blockquote>
-<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/1ff74f4d-8d35-4945-b6a3-9818949d4611/matched_image_action_25_21894fc2285841fb855c9a9d462d3066_text_export.jpeg" /></p>
+<h2 id="step-2-access-instance-settings">Step 2 — Access Instance Settings</h2>
+<p><strong>Action:</strong> Click <strong>Instance Settings</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/6077d8f2-2867-41de-8c54-230c587127a0/action-e06327e80da44429a74e75e54f52f1bb_b4fafc38bf1e48c8971c609ad7559793_text_export.jpeg" /></p>
 <hr />
-<h2 id="narration-3-the-governance-gap">Narration 3 — The Governance Gap</h2>
-<blockquote>
-<p>ZillaForge has already begun adopting AI across different parts of the business. Teams are experimenting with AI services, connecting them to business applications, and enabling access to enterprise capabilities. In the early stages, these initiatives are often managed independently, with individual teams using their own model access, credentials, and integration approaches. While this works for small-scale experimentation, it quickly becomes difficult to manage as AI adoption expands across the organization.</p>
-<p>As more AI assistants and agents begin interacting with enterprise systems, new governance challenges emerge. Organizations need to understand who is using which models, what business capabilities are being accessed, what policies are being applied, and how AI-driven activity can be monitored and controlled. Traditional governance models were designed for applications and APIs, not autonomous AI interactions. This creates a governance gap that requires a consistent control point where security, policies, credentials, monitoring, and visibility can be applied across all AI interactions. IBM DataPower Interact Gateway is designed to address that gap.</p>
-</blockquote>
-<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/9d4f4ba8-3c1a-417e-a161-0d3bd48d3d13/matched_image_action_26_cd8ccec1c77347168442dc78dfae6559_text_export.jpeg" /></p>
+<h2 id="step-3-view-secrets">Step 3 — View Secrets</h2>
+<p><strong>Action:</strong> Click <strong>Secrets</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/77e3a0d2-6737-43d0-864f-72898aa31c9e/action-fad51b944c834fd094bbd77c2c07a5eb_c3c0ecb3a68042bdabd5bff3f8bb8653_text_export.jpeg" /></p>
 <hr />
-<h2 id="narration-4-where-interact-gateway-fits">Narration 4 — Where Interact Gateway Fits</h2>
-<blockquote>
-<p>As you saw earlier, ZillaForge already has APIs, integrations, events, and workflows that expose valuable business capabilities across the enterprise. The challenge is not creating new capabilities but allowing AI assistants and agents to access those capabilities safely and under enterprise control. That's where IBM DataPower Interact Gateway fits. It sits between AI consumers and enterprise systems, providing a controlled interaction layer that governs and secures AI-driven interactions.</p>
-<p>Think of Interact Gateway much like an API gateway for the AI era. It doesn't build the applications, models, or agents. Instead, it governs how they interact with enterprise services. APIs provide capabilities, events provide awareness, workflows provide guardrails, and policies provide trust. Together, these elements enable organizations to scale AI interactions with the visibility, security, and control required for enterprise adoption.</p>
-</blockquote>
-<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/1a2652e8-eaf4-4a2d-b9b8-74bd3557b110/matched_image_action_27_c48b14f6f9d7422b85c24bf281b52be0_text_export.jpeg" /></p>
+<h2 id="step-4-add-a-secret">Step 4 — Add a Secret</h2>
+<p><strong>Action:</strong> Click <strong>Add Secret</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/8dc0cff8-6f06-4ad5-9607-6475184362d5/action-a7f3dc5abade4db4ab077dcff5ac0778_2b954e8d7b4b45588b3a672a15381da6_text_export.jpeg" /></p>
+<p><strong>Action:</strong> Click the icon to configure the secret.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/7bbdf073-9176-447c-ae39-04aba4827e83/action-953ac5ac75f74a9d94398b61b95a8262_8203e1972d7d47fdb8b1c44ee22a0c3b_text_export.jpeg" /></p>
+<p><strong>Action:</strong> Click <strong>Back</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/6142d9f7-8525-4030-bb72-7bee49493008/action-d78c579a606b4165b4ba951e51af3d22_b10b65020fce497ab3c759b4cf1cac8d_text_export.jpeg" /></p>
 <hr />
-<p><strong>Next:</strong> <a href="../ai-assistant/">ZillaForge AI Assistant Demo →</a></p>
+<h2 id="step-5-open-the-zfwatsonx-project">Step 5 — Open the ZFwatsonx Project</h2>
+<p><strong>Action:</strong> Click <strong>ZFwatsonx</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/df12fdc3-c574-4a98-b81a-723cf3932ab3/action-7e9e7db1ecdc4093bd99bf941b6afde9_cccbaeb215fd43b096bfc6063de41cda_text_export.jpeg" /></p>
+<hr />
+<h2 id="step-6-review-the-watsonx-connection">Step 6 — Review the watsonx Connection</h2>
+<p><strong>Action:</strong> Click <strong>watsonx-conn</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/8fb4ba72-c0cd-4402-98b2-3ac775c37ac2/action-8481a8a685d84c9cb71978853c7e3159_947f7538f0194ee489db644330aa3f86_text_export.jpeg" /></p>
+<p><strong>Action:</strong> Review the LLM provider configuration, including the base path and selected operations to expose.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/8c9a2796-2e8d-4b36-a5fb-7a67ae7f58b0/action-0e5b437327904125b6c6146a1d312410_9486f316283d48c18bf3426537b8400e_text_export.jpeg" /></p>
+<hr />
+<h2 id="step-7-configure-operations-to-expose">Step 7 — Configure Operations to Expose</h2>
+<p><strong>Action:</strong> Click <strong>Select operations to expose</strong> and review the available operations.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/f6ad361d-8555-4258-8409-97c8632e215b/action-6eb892f879914c9fa53ce0f15971d800_fb550a7caa2b4a31889c807850104526_text_export.jpeg" /></p>
+<p>Review the full operations configuration.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2745a133-bc3c-4cb5-b066-f70871b4d751/action-2c61e5229ee84acc821755be2ae179b2_775fa33652c3420a91ef0fd4b709707a_text_export.jpeg" /></p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/9b8ad9e5-4fdb-46b6-a994-f2fc8449db6f/action-1c7f0a9d1f6e4d669c10d3268bdd718e_b2d738d69e39469dbce424d70848b7f3_text_export.jpeg" /></p>
+<hr />
+<h2 id="step-8-open-the-policy-sequence">Step 8 — Open the Policy Sequence</h2>
+<p><strong>Action:</strong> Click <strong>freeflowpolicysequence-watsonx-conn-t0al8</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/a001f87d-9970-498a-b6b1-6bec9168b88b/action-1b061fab3af146ed83fbd0123330de66_c3420f97e3b04b1c8bfe11498fe6d0d4_text_export.jpeg" /></p>
+<hr />
+<h2 id="step-9-review-identity-extraction-policy">Step 9 — Review Identity Extraction Policy</h2>
+<p><strong>Action:</strong> Click <strong>ExtractIdentity</strong>.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/fcb25051-f400-492c-80b0-cf113170214e/action-f09f09eaa28743078f150ed5e449aab1_15be6df6c7c7467b90d24cc249d48999_text_export.jpeg" /></p>
+<p><strong>Action:</strong> Click the button to view the policy configuration.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/6ff594eb-47c0-4116-9b0f-dec8a9763b00/action-8e7f2c6e9e074c0b8276397b06892507_4b271051396d430fbb8400aeda0ad777_text_export.jpeg" /></p>
+<hr />
+<h2 id="step-10-explore-the-full-policy-flow">Step 10 — Explore the Full Policy Flow</h2>
+<p><strong>Action:</strong> Review the complete assembly policy flow, including the Operation Switch and route-specific policies for each LLM operation.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/5abf76a2-4ca7-4dbc-bb80-9d4ebe29b082/action-8f2d78db0eb34021ac762212a109ab89_33c443d066024d72a0b653b2a6426588_text_export.jpeg" /></p>
+<p>Review additional policy nodes in the flow.</p>
+<p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/e99a81a5-5175-4454-a9e3-bb3dae75d8e4/action-7b368b02ebfa4aa9806d70d357a9d7f5_a2b8edbacb384db99642bc302b4ac4d9_text_export.jpeg" /></p>
+<hr />
+<p><strong>Previous:</strong> <a href="../mcp-tools/">← Part 2: Generating MCP Tools</a> | <strong>Next:</strong> <a href="../analytics/">Analytics →</a></p>
 
 
 
@@ -848,7 +999,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../demo-guidelines/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Demo Guidelines">
+          <a href="../mcp-tools/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Part 2 - Generating MCP Tools">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -858,20 +1009,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Demo Guidelines
+                Part 2 - Generating MCP Tools
               </div>
             </div>
           </a>
         
         
           
-          <a href="../ai-assistant/" class="md-footer__link md-footer__link--next" aria-label="Next: Part 1 - ZillaForge AI Assistant">
+          <a href="../analytics/" class="md-footer__link md-footer__link--next" aria-label="Next: Analytics">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Part 1 - ZillaForge AI Assistant
+                Analytics
               </div>
             </div>
             <div class="md-footer__button md-icon">
