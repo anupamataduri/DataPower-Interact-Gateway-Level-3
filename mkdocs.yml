@@ -18,9 +18,11 @@ nav:
   - Demo Script:
     - Overview & Architecture: 'demo-script/architecture.md'
     - Part 1 - ZillaForge AI Assistant: 'demo-script/ai-assistant.md'
-    - Part 2 - Generating MCP Tools: 'demo-script/mcp-tools.md'
-    - LLM Governance: 'demo-script/llm-governance.md'
-    - Analytics: 'demo-script/analytics.md'
+    - Part 2 - Explore Governed MCP Tools: 'demo-script/mcp-tools.md'
+    - Part 3 - Create and Publish MCP Tools: 'demo-script/create-mcp-tools.md'
+    - Part 4 - Register and Govern LLM Providers: 'demo-script/llm-governance.md'
+    - Part 5 - Developer Portal: 'demo-script/developer-portal.md'
+    - Part 6 - Analytics: 'demo-script/analytics.md'
 
 theme:
   name: material

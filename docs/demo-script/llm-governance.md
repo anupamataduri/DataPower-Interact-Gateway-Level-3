@@ -1,113 +1,65 @@
-# LLM Governance
+# Part 4: Register and Govern LLM Providers
 
-In this section, we explore how ZillaForge governs access to Large Language Model (LLM) providers through IBM DataPower Interact Gateway. Just as MCP tools govern AI interactions with enterprise services, Interact Gateway also governs how AI applications and agents access LLM capabilities — applying security, credential management, and policy enforcement at the gateway layer.
+So far, we've seen how ZillaForge exposes enterprise capabilities as governed MCP tools that can be consumed by AI assistants and agents. ZillaForge also needs a way to manage and control access to the foundation models and LLM providers that power its AI experiences.
 
----
+To address this, ZillaForge uses IBM DataPower Interact Gateway to register and govern LLM providers. In this demo, we'll use **Amazon Bedrock** as an example, but the same approach can be applied to other providers such as watsonx.ai, Azure OpenAI, Google Gemini, and other supported model providers.
 
-## Step 1 — Open IBM API Studio
-
-**Action:** Click **IBM API Studio** from the navigation.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/49d35161-8aa0-482c-8cb1-a33e94b32ac9/action-9c6fcca6f3c74553847fe76fa2aeb13f_01409570623240bd8e92222e0594cc47_text_export.jpeg)
+Rather than allowing applications and agents to connect directly to external model endpoints, requests can be routed through Interact Gateway, where consistent security, access controls, policies, and observability can be applied. This gives ZillaForge a centralized approach to AI governance — managing which models are available, controlling access to approved providers, and applying the same governance principles already used for APIs to LLM interactions.
 
 ---
 
-## Step 2 — Access Instance Settings
+## Narration — Managing Secrets for LLM Access
 
-**Action:** Click **Instance Settings**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/6077d8f2-2867-41de-8c54-230c587127a0/action-e06327e80da44429a74e75e54f52f1bb_b4fafc38bf1e48c8971c609ad7559793_text_export.jpeg)
-
----
-
-## Step 3 — View Secrets
-
-**Action:** Click **Secrets**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/77e3a0d2-6737-43d0-864f-72898aa31c9e/action-fad51b944c834fd094bbd77c2c07a5eb_c3c0ecb3a68042bdabd5bff3f8bb8653_text_export.jpeg)
+> Before registering an LLM provider, ZillaForge performs a one-time setup activity to securely manage credentials and access tokens.
+>
+> Organizations can securely store and manage secrets using AWS Secrets Manager, Azure Key Vault, or HashiCorp Vault. Rather than embedding API keys directly in applications, gateways, or agent configurations, sensitive credentials are stored and managed centrally.
+>
+> This approach improves security, simplifies credential management, and allows ZillaForge to securely authenticate with external LLM providers.
 
 ---
 
-## Step 4 — Add a Secret
+## Step 1 — Open Instance Settings
 
-**Action:** Click **Add Secret**.
+**Action:** On the top right corner, click **Instance Settings**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/8dc0cff8-6f06-4ad5-9607-6475184362d5/action-a7f3dc5abade4db4ab077dcff5ac0778_2b954e8d7b4b45588b3a672a15381da6_text_export.jpeg)
-
-**Action:** Click the icon to configure the secret.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/7bbdf073-9176-447c-ae39-04aba4827e83/action-953ac5ac75f74a9d94398b61b95a8262_8203e1972d7d47fdb8b1c44ee22a0c3b_text_export.jpeg)
-
-**Action:** Click **Back**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/6142d9f7-8525-4030-bb72-7bee49493008/action-d78c579a606b4165b4ba951e51af3d22_b10b65020fce497ab3c759b4cf1cac8d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/cdf08e5c-de48-4eed-b9bb-173e0d3037c4/user_cropped_screenshot_6d99ee6782754a24bfbc6f1b38ce003f_text_export.jpeg)
 
 ---
 
-## Step 5 — Open the ZFwatsonx Project
+## Step 2 — View the Secrets Tab
 
-**Action:** Click **ZFwatsonx**.
+**Action:** On the Instance settings page, click the **Secrets** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/df12fdc3-c574-4a98-b81a-723cf3932ab3/action-7e9e7db1ecdc4093bd99bf941b6afde9_cccbaeb215fd43b096bfc6063de41cda_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/4b0be1fa-802d-4868-b832-58276669d5ae/user_cropped_screenshot_17bede4138b642a8a31f6b5ce7771c1d_text_export.jpeg)
 
----
+Here you can connect to **AWS Secrets Manager**, **Azure Key Vault**, or **HashiCorp Vault** to manage secrets for your Interact Gateway.
 
-## Step 6 — Review the watsonx Connection
+Click **Back** once you are done.
 
-**Action:** Click **watsonx-conn**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/8fb4ba72-c0cd-4402-98b2-3ac775c37ac2/action-8481a8a685d84c9cb71978853c7e3159_947f7538f0194ee489db644330aa3f86_text_export.jpeg)
-
-**Action:** Review the LLM provider configuration, including the base path and selected operations to expose.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/8c9a2796-2e8d-4b36-a5fb-7a67ae7f58b0/action-0e5b437327904125b6c6146a1d312410_9486f316283d48c18bf3426537b8400e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/6b20fa92-0d5d-46da-a67c-90fb43610a2e/user_cropped_screenshot_d586f95cb6844a0e8194648acdcf02a7_text_export.jpeg)
 
 ---
 
-## Step 7 — Configure Operations to Expose
+## Narration — Registering an LLM Provider
 
-**Action:** Click **Select operations to expose** and review the available operations.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/f6ad361d-8555-4258-8409-97c8632e215b/action-6eb892f879914c9fa53ce0f15971d800_fb550a7caa2b4a31889c807850104526_text_export.jpeg)
-
-Review the full operations configuration.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2745a133-bc3c-4cb5-b066-f70871b4d751/action-2c61e5229ee84acc821755be2ae179b2_775fa33652c3420a91ef0fd4b709707a_text_export.jpeg)
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/9b8ad9e5-4fdb-46b6-a994-f2fc8449db6f/action-1c7f0a9d1f6e4d669c10d3268bdd718e_b2d738d69e39469dbce424d70848b7f3_text_export.jpeg)
-
----
-
-## Step 8 — Open the Policy Sequence
-
-**Action:** Click **freeflowpolicysequence-watsonx-conn-t0al8**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/a001f87d-9970-498a-b6b1-6bec9168b88b/action-1b061fab3af146ed83fbd0123330de66_c3420f97e3b04b1c8bfe11498fe6d0d4_text_export.jpeg)
+> Let's now look at how ZillaForge manages access to external foundation models.
+>
+> For this example, ZillaForge has registered **AWS Bedrock** as an LLM provider, although the same process can be used for other providers such as watsonx.ai, Azure OpenAI, Google Gemini, Anthropic, or any supported model platform.
+>
+> We'll open the Bedrock project and examine how the provider was configured. In addition to the provider registration itself, you'll see the policy sequence associated with the LLM endpoint. Just as we saw with MCP tools, ZillaForge can apply governance controls before requests are sent to the model provider.
+>
+> This allows the organization to enforce security, authentication, usage policies, observability, and other controls consistently across LLM interactions. Rather than connecting directly to external model endpoints, applications and agents can access approved models through a governed entry point managed by IBM DataPower Interact Gateway.
+>
+> The result is a centralized approach to LLM governance that gives ZillaForge visibility and control over how foundation models are used across the enterprise.
 
 ---
 
-## Step 9 — Review Identity Extraction Policy
+## Step 3 — Open the ZFBedrock Project
 
-**Action:** Click **ExtractIdentity**.
+**Action:** In API Studio, click the **ZFBedrock** project.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/fcb25051-f400-492c-80b0-cf113170214e/action-f09f09eaa28743078f150ed5e449aab1_15be6df6c7c7467b90d24cc249d48999_text_export.jpeg)
-
-**Action:** Click the button to view the policy configuration.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/6ff594eb-47c0-4116-9b0f-dec8a9763b00/action-8e7f2c6e9e074c0b8276397b06892507_4b271051396d430fbb8400aeda0ad777_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/bb8644da-2f70-4d97-b1a1-655c7fc4091a/user_cropped_screenshot_0b9a8df35266412e879362e2ad690f7c_text_export.jpeg)
 
 ---
 
-## Step 10 — Explore the Full Policy Flow
-
-**Action:** Review the complete assembly policy flow, including the Operation Switch and route-specific policies for each LLM operation.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/5abf76a2-4ca7-4dbc-bb80-9d4ebe29b082/action-8f2d78db0eb34021ac762212a109ab89_33c443d066024d72a0b653b2a6426588_text_export.jpeg)
-
-Review additional policy nodes in the flow.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/e99a81a5-5175-4454-a9e3-bb3dae75d8e4/action-7b368b02ebfa4aa9806d70d357a9d7f5_a2b8edbacb384db99642bc302b4ac4d9_text_export.jpeg)
-
----
-
-**Previous:** [← Part 2: Generating MCP Tools](mcp-tools.md) | **Next:** [Analytics →](analytics.md)
+**Previous:** [← Part 3: Create and Publish MCP Tools](create-mcp-tools.md) | **Next:** [Part 5 - Developer Portal →](developer-portal.md)

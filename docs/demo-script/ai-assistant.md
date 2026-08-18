@@ -1,4 +1,4 @@
-# ZillaForge AI Assistant for Internal Operations Queries
+# Part 1: ZillaForge AI Assistant for Internal Operations Queries
 
 In the first part of the demo, you will explore the ZillaForge Operations Portal and interact with an AI-powered assistant. The assistant is connected to enterprise capabilities through an **MCP endpoint** exposed by IBM DataPower Interact Gateway, allowing users to ask business questions in natural language and receive answers from governed enterprise data and services.
 
@@ -16,7 +16,7 @@ The goal is to demonstrate how AI can safely access enterprise capabilities thro
 
 **Action:** Navigate to [http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/](http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/)
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_be211d99dbef44da913cf3a58c333979_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_82b91a0e5b2b470bbe699649c6e9e20c_text_export.jpeg)
 
 ---
 
@@ -36,7 +36,7 @@ The goal is to demonstrate how AI can safely access enterprise capabilities thro
 
 **Action:** Click the ZillaForge **AI assistant** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/379aecbf-b55d-4f2b-b4ba-b04db31f54e4/action-47a37337742d4670a9817f6c0e7a8d07_ae6a722f08a24681b1303922bdb257f6_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/560bc599-d52f-495e-9fc0-63671268bda8/user_cropped_screenshot_46c2f17d0e0a471eb5939fd1ebee24d0_text_export.jpeg)
 
 ---
 
@@ -46,15 +46,15 @@ The goal is to demonstrate how AI can safely access enterprise capabilities thro
 
 > **"What products are offered for predictive maintenance and industrial monitoring?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/4a8722a5-8090-4dbd-8340-1d4d2db6a7c2/action-9b234e6d905d4de9a134ade5027d12e2_a6e2e043083042259f6c6e770b103fc8_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/53a34139-fd50-48c5-842d-f50afe481de1/user_cropped_screenshot_56cb906cf5d8402eb27051ad79067ca6_text_export.jpeg)
 
 Click the **Send** button.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/c1c3199f-58dc-4413-900c-90b3ba90bf20/action-456cf2dcfead4e0aa943618ad1738248_83d82bd952054d45b25685468d7ea723_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/39500f3f-c311-4c44-ae4a-35075daa3d72/user_cropped_screenshot_b60e4be372644ec585dbf5836e7dc9a3_text_export.jpeg)
 
 The assistant has found the available products. Click **Show more** to see the full response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/97165cff-f12b-4480-aeea-117828893427/action-2ab9c7b3dbb4475ebf87790a18beb8d9_644f10edec734b8b9a1eea72d23b7d0a_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0adcc52b-9cea-44a8-bd18-46f76b49c09c/user_cropped_screenshot_a5c590f1d6224113b387f02a718be1a9_text_export.jpeg)
 
 ---
 
@@ -72,19 +72,19 @@ The assistant has found the available products. Click **Show more** to see the f
 
 > **"Which ZillaForge product would you recommend for a factory looking to reduce unplanned equipment downtime?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/473a113b-1bd5-4a8d-88d3-b3d7e8a1bb0a/action-43c22db194d24e7b9c2865fabdb2a69e_68226b7da7b345209c3cdd8e2a4b0c35_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/3c09775d-c481-450e-aad5-b42d6f48b50e/user_cropped_screenshot_dbc184b84e79449d9885927b2fef7f1e_text_export.jpeg)
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/e3dc0adb-b778-4edd-8721-f0114bd35c8a/action-897481be711848bd995d413e2dbd1120_b09d4b8c0ecd42078ac1b44b3ee88428_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/33364435-7b54-401a-b562-d62ad704102c/user_cropped_screenshot_3ea967371725429ca2187fadbb4d0ec5_text_export.jpeg)
 
 Click **Show more** to see the entire response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/463871a7-bc46-4059-b166-2e258c0a14bf/action-b2de0b202d39408ab549c610242eb9cc_b817c28cd45041168bfcda511984044b_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/948adec9-784c-4179-bc70-5a7729d669f1/user_cropped_screenshot_3b49aca6f85e456f98ee7b35843ce1c3_text_export.jpeg)
 
 Notice that the assistant hasn't simply picked a product. It's recommended a **complete solution** and explained why the products work together.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/fc99f186-d320-446c-bcfd-91273b1abe68/action-dbda5401aee14446a2c906ad00f6340a_699f5e24bca749d4a70097158d3592cb_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/206803c5-6667-42af-b53d-6ff5820e8ef6/user_cropped_screenshot_f89f68db7a3b48e5993ceb7d4b5e9208_text_export.jpeg)
 
 ---
 
@@ -102,15 +102,15 @@ Notice that the assistant hasn't simply picked a product. It's recommended a **c
 
 > **"Which customer orders related to predictive maintenance solutions are currently awaiting fulfilment?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/e19226b1-3b67-4f03-bd5e-0684c96a0b16/action-3a46243684b2481a9ee486afda23e63f_860feedc61d64864bda1e01698efd2d2_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/752948a8-2bb6-4d65-a0ce-c24f0371cf17/user_cropped_screenshot_55233e7ae6764b2ab8e89eef52f22644_text_export.jpeg)
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/390d78d4-cbf6-4a89-a133-7d2d718737fa/action-15698ff5ddb54e6088de7b8bc6f1a5b8_b309013556dc4cb4a8b151dda74a94fb_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2fcc5813-7f88-4863-b064-eec19a75701d/user_cropped_screenshot_1fddb9fc38ec4c5aa280a0c9d6a5025d_text_export.jpeg)
 
 Click **Show more** to see the full response. The assistant has identified the customer orders that are currently awaiting fulfilment and related to predictive maintenance solutions.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/8fd185b8-1197-42da-9c1c-d7454885a800/user_cropped_screenshot_69a7a00fb68c4c0092c9863790b47ed1_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/248ad69c-22e8-44bf-9886-6b462f7b74dd/user_cropped_screenshot_3d40fa535d4a453b90c73b8f85ccc887_text_export.jpeg)
 
 ---
 
@@ -130,17 +130,17 @@ Click **Show more** to see the full response. The assistant has identified the c
 
 > **"A customer wants to improve asset reliability across multiple manufacturing sites. Which ZillaForge solution would you recommend and why?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/cb25d1f4-d6cf-4724-b3a6-7ad4e708cf88/action-8cc2ebc2e83c4b0eb5c62e2214704a6d_6d8b13f853a4415aac7cda40c31e3595_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/1a1ec765-da6d-4d43-aa28-0095057ee727/user_cropped_screenshot_41dafa790f404dafb07191e00b13b111_text_export.jpeg)
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a000052-d231-4007-a044-d3044c5463a2/action-d4bc59b8d1b148b785ef24e4abd973d0_c6802518622941adb298f84d560da2c0_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/93ade370-b968-4dc2-b5a6-0ba9d182987f/user_cropped_screenshot_160b35cafdb244cab4851330aef92d58_text_export.jpeg)
 
 The recommendation is supported by operational information. You can see several assets with elevated failure risk. The assistant is also **identifying a pattern across multiple sites** rather than highlighting an isolated device issue.
 
 Click **Show more** to see the full response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/2b11415b-5f7b-4d67-acdf-8b56b3e475be/action-8a750d631ec04bb4be294979381a5a94_48161908905041c89ee82e53262654fc_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0cbd481a-02d7-4e7b-a353-189fdd79738d/user_cropped_screenshot_fdb55aed75d64716b21250740df83db4_text_export.jpeg)
 
 ---
 
@@ -160,15 +160,15 @@ Click **Show more** to see the full response.
 
 > **"A manufacturing customer is planning a digital transformation initiative focused on IoT, predictive maintenance, and automation. Which ZillaForge products best support this strategy, and what existing customer demand should the business be aware of before planning deployment?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/86238b1b-3926-4493-b524-cec8d24b09eb/action-f9e0479ecc544ef3a706cd5c694b8fb4_23675cd80b6b426b805a4ae3b2c32a09_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/dabc326d-07ea-483a-92fd-fef5f3f21a53/user_cropped_screenshot_9751c0f2160b45e0abdc05ef64ea0fd5_text_export.jpeg)
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/24621245-8028-4dc0-9ec0-24cfe9b093e1/action-bedea4e375c0482c8246d949dd7e3013_f68b93780a4f44dba722eb2550e96fbd_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/40a45308-5a99-4f0a-b594-243fd8ebd130/user_cropped_screenshot_e6b344fd20854972972538ba6b1481db_text_export.jpeg)
 
 The assistant has recommended the ZillaForge solutions that best align with the customer's digital transformation objectives while also highlighting existing customer demand that should be considered during planning.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/faf5b7b4-0e18-49d4-acbe-00c6e7fa6324/action-2db327eb64144416ba441953340d13c4_73018282050a4a2a8880c9e82eaa5093_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/faf5b7b4-0e18-49d4-acbe-00c6e7fa6324/action-2db327eb64144416ba441953340d13c4_2933d5edc1ed4d728fe2e1a71984e6d4_text_export.jpeg)
 
 ---
 
@@ -182,4 +182,4 @@ The assistant has recommended the ZillaForge solutions that best align with the 
 
 ---
 
-**Previous:** [← Overview and Architecture](architecture.md)
+**Previous:** [← Overview and Architecture](architecture.md) | **Next:** [Part 2 - Explore Governed MCP Tools →](mcp-tools.md)
