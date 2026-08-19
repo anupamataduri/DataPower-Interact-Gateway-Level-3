@@ -11,8 +11,8 @@ docs_dir: docs
 nav:
   - Introduction: 'index.md'
   - Prerequisites: 'prerequisites.md'
-  - Overview:
-    - IBM DataPower Interact Gateway & ZillaForge: 'overview.md'
+  - IBM DataPower Interact Gateway Overview: 'overview.md'
+  - About ZillaForge: 'zillaforge.md'
   - Environment Setup: 'environment.md'
   - Demo Guidelines: 'demo-guidelines.md'
   - Demo Script:
