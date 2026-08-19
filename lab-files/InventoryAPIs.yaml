@@ -1,0 +1,127 @@
+openapi: 3.0.3
+
+info:
+  title: InventoryAPIs
+  description: Inventory APIs
+  version: "1"
+
+servers:
+  - url: https://prod548489.a-vir-d1.apigw.ipaas.automation.ibm.com/gateway/InventoryAPIs/1
+
+tags:
+  - name: Products
+  - name: Inventory
+
+security:
+  - gatewayApiKey: []
+
+paths:
+
+  /productcatalog:
+    get:
+      tags:
+        - Products
+      summary: List ecommerce products
+      description: Retrieve product catalog information.
+
+      responses:
+        "200":
+          description: Product catalog retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+
+        "401":
+          description: Access denied
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+  /inventories:
+    get:
+      tags:
+        - Inventory
+      summary: List ecommerce inventories
+      description: Retrieve inventory inventory information.
+
+      responses:
+        "200":
+          description: Inventory data retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+
+        "401":
+          description: Access denied
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+components:
+
+  securitySchemes:
+    gatewayApiKey:
+      type: apiKey
+      in: header
+      name: x-Gateway-APIKey
+
+  schemas:
+    Error:
+      type: object
+      properties:
+        message:
+          type: string
+
+x-ibm-configuration:
+  cors:
+    enabled: true
+
+  properties:
+    target-url:
+      value: https://prod548489.a-vir-d1.apigw.ipaas.automation.ibm.com/gateway/InventoryAPIs/1
+      description: Backend API endpoint
+      encoded: false
+
+  phase: realized
+  enforced: true
+  gateway: datapower-api-gateway
+
+  assembly:
+    execute:
+      - invoke:
+          version: 2.0.0
+          title: invoke
+          backend-type: detect
+          timeout: 60
+          verb: keep
+          chunked-uploads: true
+          persistent-connection: true
+          target-url: $(target-url)$(request.path)
+          follow-redirects: false
+          inject-proxy-headers: true
+          type: rest
+
+  testable: true
+
+  activity-log:
+    enabled: true
+    success-content: activity
+    error-content: payload
