@@ -14,7 +14,7 @@ The DataPower Interact Gateway demo environment runs in the cloud and can be res
 
 ### Step 1 — Log in to IBM TechZone
 
-Login to IBM TechZone at: [https://techzone.ibm.com/search](https://techzone.ibm.com/search)
+Login to IBM TechZone at: <a href="https://techzone.ibm.com/search" target="_blank">https://techzone.ibm.com/search</a>
 
 Search for **DataPower Interact Gateway** in the Search bar **(A)**.
 

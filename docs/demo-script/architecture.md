@@ -1,7 +1,7 @@
 # Overview and Architecture
 
 !!! note "Slide Resources"
-    The slides used in this section can be found [HERE](https://ibm.seismic.com/Link/Content/DC633F9fdp9cC89T3QDhmmmFGqWB).
+    The slides used in this section can be found <a href="https://ibm.seismic.com/Link/Content/DC633F9fdp9cC89T3QDhmmmFGqWB" target="_blank">HERE</a>.
 
 ---
 

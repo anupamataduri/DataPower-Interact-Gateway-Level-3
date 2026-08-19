@@ -12,7 +12,7 @@
 
 ## Step 1 — Navigate to the Operations Portal
 
-**Action:** Navigate to [http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/](http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/)
+**Action:** Navigate to <a href="http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/" target="_blank">http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/</a>
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_347f7cd98b4f4565b2a578a2261170f1_text_export.jpeg)
 
