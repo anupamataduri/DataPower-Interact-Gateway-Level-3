@@ -6,7 +6,7 @@ This guide is designed to help you demonstrate the DataPower Interact Gateway in
 
 ## Use Case Introduction
 
-ZillaForge, a fictional global leader in industrial automation, is entering a new phase of digital transformation by adopting AI agents to automate work, accelerate decision-making, and interact directly with enterprise systems. While the company has already invested in APIs, hybrid integration, and event-driven connectivity, it now faces a new challenge: **governing AI-initiated interactions** as they move across business applications, integrations, and services.
+ZillaForge, a fictional global leader in industrial automation, is entering a new phase of digital transformation by adopting AI assistants and agents to automate work, accelerate decision-making, and interact directly with enterprise systems. While the company has already invested in APIs, integrations, and reusable business services, it now faces a new challenge: how to **safely expose those capabilities to AI** while maintaining security, governance, and visibility.
 
 To address these challenges, ZillaForge adopts **IBM DataPower Interact Gateway**.
 

@@ -1,14 +1,12 @@
 # Part 1: ZillaForge AI Assistant for Internal Operations Queries
 
-In the first part of the demo, you will explore the ZillaForge Operations Portal and interact with an AI-powered assistant. The assistant is connected to enterprise capabilities through an **MCP endpoint** exposed by IBM DataPower Interact Gateway, allowing users to ask business questions in natural language and receive answers from governed enterprise data and services.
-
-The goal is to demonstrate how AI can safely access enterprise capabilities through a **controlled, observable interaction layer**.
-
----
-
 ## Narration — The Operations Portal
 
 > ZillaForge employees access a centralized Operations Portal to interact with enterprise information and capabilities. Rather than navigating multiple systems, users can simply ask questions through an AI-powered assistant integrated directly into the portal.
+>
+> The assistant is connected to enterprise capabilities through an MCP endpoint exposed by the Interact Gateway, allowing users to ask business questions in natural language and receive answers from governed enterprise data and services.
+>
+> The goal is to demonstrate how AI can safely access enterprise capabilities through a controlled, observable interaction layer.
 
 ---
 
@@ -16,7 +14,7 @@ The goal is to demonstrate how AI can safely access enterprise capabilities thro
 
 **Action:** Navigate to [http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/](http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/)
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_82b91a0e5b2b470bbe699649c6e9e20c_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_347f7cd98b4f4565b2a578a2261170f1_text_export.jpeg)
 
 ---
 
@@ -24,11 +22,7 @@ The goal is to demonstrate how AI can safely access enterprise capabilities thro
 
 > Now let's see how a business user interacts with enterprise capabilities through the AI assistant.
 >
-> Rather than searching through product documentation, CRM systems, knowledge bases, or multiple business applications, the user simply asks a question in natural language.
->
-> What's important is that the AI assistant already has access to governed enterprise capabilities through the MCP endpoint exposed by IBM DataPower Interact Gateway. When the user submits the request, the assistant can discover and invoke the appropriate enterprise tools and services without requiring the user to know where the information resides or which systems need to be accessed.
->
-> From the user's perspective, this is a simple conversational experience. Behind the scenes, however, the interaction is routed through a governed entry point where security, policies, credentials, and observability are applied consistently. This allows AI to safely access trusted enterprise capabilities while maintaining enterprise control and visibility.
+> From the user's perspective, this is a simple conversational experience. Behind the scenes, however, the interaction is routed through a governed entry point where security, policies, credentials, and observability are applied consistently.
 
 ---
 
@@ -36,7 +30,7 @@ The goal is to demonstrate how AI can safely access enterprise capabilities thro
 
 **Action:** Click the ZillaForge **AI assistant** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/560bc599-d52f-495e-9fc0-63671268bda8/user_cropped_screenshot_46c2f17d0e0a471eb5939fd1ebee24d0_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/560bc599-d52f-495e-9fc0-63671268bda8/user_cropped_screenshot_2d5c87344e674849b73a23bbc97dfbe4_text_export.jpeg)
 
 ---
 
@@ -46,15 +40,15 @@ The goal is to demonstrate how AI can safely access enterprise capabilities thro
 
 > **"What products are offered for predictive maintenance and industrial monitoring?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/53a34139-fd50-48c5-842d-f50afe481de1/user_cropped_screenshot_56cb906cf5d8402eb27051ad79067ca6_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/824e5cf5-0417-445f-a709-27c7e5d539af/user_cropped_screenshot_8810ef968a914815be2814c18a30046e_text_export.jpeg)
 
 Click the **Send** button.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/39500f3f-c311-4c44-ae4a-35075daa3d72/user_cropped_screenshot_b60e4be372644ec585dbf5836e7dc9a3_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/39500f3f-c311-4c44-ae4a-35075daa3d72/user_cropped_screenshot_6cc95538f23d456d80b59a282cfb5a90_text_export.jpeg)
 
 The assistant has found the available products. Click **Show more** to see the full response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0adcc52b-9cea-44a8-bd18-46f76b49c09c/user_cropped_screenshot_a5c590f1d6224113b387f02a718be1a9_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0adcc52b-9cea-44a8-bd18-46f76b49c09c/user_cropped_screenshot_474f4d900f7d4c45a85cb449e3bb575a_text_export.jpeg)
 
 ---
 
@@ -72,19 +66,19 @@ The assistant has found the available products. Click **Show more** to see the f
 
 > **"Which ZillaForge product would you recommend for a factory looking to reduce unplanned equipment downtime?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/3c09775d-c481-450e-aad5-b42d6f48b50e/user_cropped_screenshot_dbc184b84e79449d9885927b2fef7f1e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/89485a69-19cb-4eeb-be0f-df6c8c1d0c4b/user_cropped_screenshot_fbd2702ae6224401b09f54e5a0956fe6_text_export.jpeg)
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/33364435-7b54-401a-b562-d62ad704102c/user_cropped_screenshot_3ea967371725429ca2187fadbb4d0ec5_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/33364435-7b54-401a-b562-d62ad704102c/user_cropped_screenshot_82a9199cb98c48e7bb0c4dd958077fe4_text_export.jpeg)
 
 Click **Show more** to see the entire response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/948adec9-784c-4179-bc70-5a7729d669f1/user_cropped_screenshot_3b49aca6f85e456f98ee7b35843ce1c3_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/948adec9-784c-4179-bc70-5a7729d669f1/user_cropped_screenshot_4e2a587325574d05bdb548e190d17983_text_export.jpeg)
 
 Notice that the assistant hasn't simply picked a product. It's recommended a **complete solution** and explained why the products work together.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/206803c5-6667-42af-b53d-6ff5820e8ef6/user_cropped_screenshot_f89f68db7a3b48e5993ceb7d4b5e9208_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/206803c5-6667-42af-b53d-6ff5820e8ef6/user_cropped_screenshot_fdbbe2c342ac49a797dc5c56c05b1402_text_export.jpeg)
 
 ---
 
@@ -102,15 +96,15 @@ Notice that the assistant hasn't simply picked a product. It's recommended a **c
 
 > **"Which customer orders related to predictive maintenance solutions are currently awaiting fulfilment?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/752948a8-2bb6-4d65-a0ce-c24f0371cf17/user_cropped_screenshot_55233e7ae6764b2ab8e89eef52f22644_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96f80c47-9360-4453-a456-2358008dbc09/user_cropped_screenshot_5befa36fdd4f4cf3b1c19d39cac45b67_text_export.jpeg)
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2fcc5813-7f88-4863-b064-eec19a75701d/user_cropped_screenshot_1fddb9fc38ec4c5aa280a0c9d6a5025d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2fcc5813-7f88-4863-b064-eec19a75701d/user_cropped_screenshot_382f10908f2948c3877888e836ad8415_text_export.jpeg)
 
 Click **Show more** to see the full response. The assistant has identified the customer orders that are currently awaiting fulfilment and related to predictive maintenance solutions.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/248ad69c-22e8-44bf-9886-6b462f7b74dd/user_cropped_screenshot_3d40fa535d4a453b90c73b8f85ccc887_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/248ad69c-22e8-44bf-9886-6b462f7b74dd/user_cropped_screenshot_6c80258c043e49f591a5ba6163b18be8_text_export.jpeg)
 
 ---
 
@@ -130,17 +124,17 @@ Click **Show more** to see the full response. The assistant has identified the c
 
 > **"A customer wants to improve asset reliability across multiple manufacturing sites. Which ZillaForge solution would you recommend and why?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/1a1ec765-da6d-4d43-aa28-0095057ee727/user_cropped_screenshot_41dafa790f404dafb07191e00b13b111_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/a53441fd-e7e0-4fe8-94ad-6fceda4a3ceb/user_cropped_screenshot_02c1e6dbaaa74adbab6ab9a494eba989_text_export.jpeg)
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/93ade370-b968-4dc2-b5a6-0ba9d182987f/user_cropped_screenshot_160b35cafdb244cab4851330aef92d58_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/93ade370-b968-4dc2-b5a6-0ba9d182987f/user_cropped_screenshot_7fb76f7f8d4d423b982149b4e948d986_text_export.jpeg)
 
 The recommendation is supported by operational information. You can see several assets with elevated failure risk. The assistant is also **identifying a pattern across multiple sites** rather than highlighting an isolated device issue.
 
 Click **Show more** to see the full response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0cbd481a-02d7-4e7b-a353-189fdd79738d/user_cropped_screenshot_fdb55aed75d64716b21250740df83db4_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0cbd481a-02d7-4e7b-a353-189fdd79738d/user_cropped_screenshot_09058b85ce2e4a519e4d51ae43a59329_text_export.jpeg)
 
 ---
 
@@ -160,19 +154,19 @@ Click **Show more** to see the full response.
 
 > **"A manufacturing customer is planning a digital transformation initiative focused on IoT, predictive maintenance, and automation. Which ZillaForge products best support this strategy, and what existing customer demand should the business be aware of before planning deployment?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/dabc326d-07ea-483a-92fd-fef5f3f21a53/user_cropped_screenshot_9751c0f2160b45e0abdc05ef64ea0fd5_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/8abd49d9-883b-417c-aa0d-73c2e5a7c63d/user_cropped_screenshot_d5808f3e19b4407b8afcf519b7444e04_text_export.jpeg)
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/40a45308-5a99-4f0a-b594-243fd8ebd130/user_cropped_screenshot_e6b344fd20854972972538ba6b1481db_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/40a45308-5a99-4f0a-b594-243fd8ebd130/user_cropped_screenshot_8e645d9b8ae44b6a941a7fb2326a3809_text_export.jpeg)
 
 The assistant has recommended the ZillaForge solutions that best align with the customer's digital transformation objectives while also highlighting existing customer demand that should be considered during planning.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/faf5b7b4-0e18-49d4-acbe-00c6e7fa6324/action-2db327eb64144416ba441953340d13c4_2933d5edc1ed4d728fe2e1a71984e6d4_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/53f13ebd-25f0-454b-b62e-855d64343560/user_cropped_screenshot_7f746756285f4ba2bcff2393d0b3cb9e_text_export.jpeg)
 
 ---
 
-## Narration — Summary
+## Wrap-up
 
 > We've seen how the ZillaForge Operations Portal allows users to interact with enterprise capabilities through a simple AI-powered experience.
 >
