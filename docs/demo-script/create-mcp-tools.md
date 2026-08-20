@@ -318,11 +318,11 @@ Here you can see the MCP endpoint that you can use with applications, assistants
 
 ---
 
-## Part 3 Summary
+## Wrap-up
 
-Rather than building new services for AI, we reused existing enterprise APIs, selected the operations to expose, applied governance policies, and published the resulting MCP tools through the Interact Gateway.
-
-By following this approach, organizations can safely make enterprise capabilities available to AI assistants and agents while maintaining the security, control, and observability required for enterprise-scale AI adoption.
+> Rather than building new services for AI, we reused existing enterprise APIs, selected the operations to expose, applied governance policies, and published the resulting MCP tools through the Interact Gateway.
+>
+> By following this approach, organizations can safely make enterprise capabilities available to AI assistants and agents while maintaining the security, control, and observability required for enterprise-scale AI adoption.
 
 ---
 
