@@ -596,6 +596,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#narration-governing-llm-providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Narration — Governing LLM Providers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#narration-managing-credentials-for-llm-providers" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -750,10 +761,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#part-4-summary" class="md-nav__link">
+  <a href="#wrap-up" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part 4 Summary
+        Wrap-up
       
     </span>
   </a>
@@ -886,6 +897,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#narration-governing-llm-providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Narration — Governing LLM Providers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#narration-managing-credentials-for-llm-providers" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1040,10 +1062,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#part-4-summary" class="md-nav__link">
+  <a href="#wrap-up" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part 4 Summary
+        Wrap-up
       
     </span>
   </a>
@@ -1068,10 +1090,13 @@
 
 
 <h1 id="part-4-register-and-govern-llm-providers">Part 4: Register and Govern LLM Providers</h1>
+<h2 id="narration-governing-llm-providers">Narration — Governing LLM Providers</h2>
+<blockquote>
 <p>So far, we've seen how ZillaForge exposes enterprise capabilities as governed MCP tools that can be consumed by AI assistants and agents. ZillaForge also needs a way to manage and control access to the foundation models and LLM providers that power its AI experiences.</p>
 <p>To address this, ZillaForge uses the Interact Gateway to register and govern LLM providers. In this demo, we'll use <strong>Amazon Bedrock</strong> as an example, but the same approach can be applied to other providers such as watsonx.ai, Azure OpenAI, Google Gemini, and other supported model providers.</p>
 <p>Rather than allowing applications and agents to connect directly to external model endpoints, requests can be routed through Interact Gateway, where consistent security, access controls, policies, and observability can be applied.</p>
 <p>This gives ZillaForge a centralized approach to AI governance. The organization can manage which models are available, control access to approved providers, monitor usage, and apply the same governance principles already used for APIs and enterprise services to its LLM interactions.</p>
+</blockquote>
 <hr />
 <h2 id="narration-managing-credentials-for-llm-providers">Narration — Managing Credentials for LLM Providers</h2>
 <blockquote>
@@ -1160,9 +1185,11 @@
 <p>Here you can see separate operations have been configured for <strong>chat completions</strong>, <strong>embeddings</strong>, and <strong>model discovery</strong>. Each operation represents a specific model capability that can be invoked through the governed provider endpoint.</p>
 <p><img alt="" src="https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/1121b197-9d4b-473a-ad53-120b6f990009/user_cropped_screenshot_89c2e2ca0a8f41b7bff4861d83710289_text_export.jpeg" /></p>
 <hr />
-<h2 id="part-4-summary">Part 4 Summary</h2>
+<h2 id="wrap-up">Wrap-up</h2>
+<blockquote>
 <p>We've seen how ZillaForge can register external LLM providers, securely manage credentials and connectivity, and apply governance controls through policy sequences before requests reach the model provider.</p>
 <p>By managing LLM access through the Interact Gateway, organizations can centralize security, enforce governance policies, control which model capabilities are exposed, and gain greater visibility into how foundation models are used across the enterprise.</p>
+</blockquote>
 <hr />
 <p><strong>Previous:</strong> <a href="../create-mcp-tools/">← Part 3: Create and Publish MCP Tools</a> | <strong>Next:</strong> <a href="../developer-portal/">Part 5 - Discover and Consume AI Assets Through the Developer Portal →</a></p>
 
