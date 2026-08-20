@@ -1,8 +1,10 @@
 # Part 3: Create and Publish MCP Tools from an Existing API
 
-In the first part of this demo, we explored how ZillaForge transformed existing enterprise APIs into governed AI-ready capabilities using the Interact Gateway.
+## Narration — Creating Governed MCP Tools
 
-Now we will **create** governed MCP tools from an existing API. We'll discover API operations, select the capabilities to expose, apply enhancements, and prepare the tools for publication through the Interact Gateway. This workflow demonstrates how organizations can transform existing enterprise services into AI-ready capabilities without building new back-end systems.
+> In the first part of this demo, we explored how ZillaForge transformed existing enterprise APIs into governed AI-ready capabilities using the Interact Gateway.
+>
+> Now we will create governed MCP tools from an existing API. We'll discover API operations, select the capabilities to expose, apply enhancements, and prepare the tools for publication through the Interact Gateway. This workflow demonstrates how organizations can transform existing enterprise services into AI-ready capabilities without building new back-end systems.
 
 ---
 

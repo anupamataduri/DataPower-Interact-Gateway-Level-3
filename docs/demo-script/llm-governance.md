@@ -1,12 +1,14 @@
 # Part 4: Register and Govern LLM Providers
 
-So far, we've seen how ZillaForge exposes enterprise capabilities as governed MCP tools that can be consumed by AI assistants and agents. ZillaForge also needs a way to manage and control access to the foundation models and LLM providers that power its AI experiences.
+## Narration — Governing LLM Providers
 
-To address this, ZillaForge uses the Interact Gateway to register and govern LLM providers. In this demo, we'll use **Amazon Bedrock** as an example, but the same approach can be applied to other providers such as watsonx.ai, Azure OpenAI, Google Gemini, and other supported model providers.
-
-Rather than allowing applications and agents to connect directly to external model endpoints, requests can be routed through Interact Gateway, where consistent security, access controls, policies, and observability can be applied.
-
-This gives ZillaForge a centralized approach to AI governance. The organization can manage which models are available, control access to approved providers, monitor usage, and apply the same governance principles already used for APIs and enterprise services to its LLM interactions.
+> So far, we've seen how ZillaForge exposes enterprise capabilities as governed MCP tools that can be consumed by AI assistants and agents. ZillaForge also needs a way to manage and control access to the foundation models and LLM providers that power its AI experiences.
+>
+> To address this, ZillaForge uses the Interact Gateway to register and govern LLM providers. In this demo, we'll use **Amazon Bedrock** as an example, but the same approach can be applied to other providers such as watsonx.ai, Azure OpenAI, Google Gemini, and other supported model providers.
+>
+> Rather than allowing applications and agents to connect directly to external model endpoints, requests can be routed through Interact Gateway, where consistent security, access controls, policies, and observability can be applied.
+>
+> This gives ZillaForge a centralized approach to AI governance. The organization can manage which models are available, control access to approved providers, monitor usage, and apply the same governance principles already used for APIs and enterprise services to its LLM interactions.
 
 ---
 
@@ -159,11 +161,11 @@ Here you can see separate operations have been configured for **chat completions
 
 ---
 
-## Part 4 Summary
+## Wrap-up
 
-We've seen how ZillaForge can register external LLM providers, securely manage credentials and connectivity, and apply governance controls through policy sequences before requests reach the model provider.
-
-By managing LLM access through the Interact Gateway, organizations can centralize security, enforce governance policies, control which model capabilities are exposed, and gain greater visibility into how foundation models are used across the enterprise.
+> We've seen how ZillaForge can register external LLM providers, securely manage credentials and connectivity, and apply governance controls through policy sequences before requests reach the model provider.
+>
+> By managing LLM access through the Interact Gateway, organizations can centralize security, enforce governance policies, control which model capabilities are exposed, and gain greater visibility into how foundation models are used across the enterprise.
 
 ---
 

@@ -1,10 +1,12 @@
 # Part 5: Discover and Consume AI Assets Through the Developer Portal
 
-So far, we've focused on how ZillaForge creates, governs, and publishes AI-ready capabilities. The next step is to look at the consumer experience.
+## Narration — The Consumer Experience
 
-Now, we're moving into the **Developer Portal**, where published AI assets can be discovered and accessed by teams. This provides a central location for finding approved enterprise capabilities and understanding how they can be consumed.
-
-Just as the Developer Portal has traditionally been used to discover APIs, ZillaForge can now use it to publish and share governed AI assets, making it easier for teams to find and consume trusted capabilities while maintaining enterprise governance and control.
+> So far, we've focused on how ZillaForge creates, governs, and publishes AI-ready capabilities. The next step is to look at the consumer experience.
+>
+> Now, we're moving into the **Developer Portal**, where published AI assets can be discovered and accessed by teams. This provides a central location for finding approved enterprise capabilities and understanding how they can be consumed.
+>
+> Just as the Developer Portal has traditionally been used to discover APIs, ZillaForge can now use it to publish and share governed AI assets, making it easier for teams to find and consume trusted capabilities while maintaining enterprise governance and control.
 
 ---
 
@@ -239,13 +241,13 @@ Let's add the required headers again.
 
 ---
 
-## Part 5 Summary
+## Wrap-up
 
-We've seen how ZillaForge can securely connect to and govern external LLM providers through the Interact Gateway.
-
-We registered AWS Bedrock as a provider, applied governance policies, and validated the available model capabilities. We then tested both model discovery and chat completions to confirm that requests can be routed through a governed endpoint and successfully reach the approved foundation model provider.
-
-For ZillaForge, this provides a consistent way to manage, secure, and monitor access to foundation models while applying the same governance principles already used for APIs and enterprise services.
+> We've seen how ZillaForge can securely connect to and govern external LLM providers through the Interact Gateway.
+>
+> We registered AWS Bedrock as a provider, applied governance policies, and validated the available model capabilities. We then tested both model discovery and chat completions to confirm that requests can be routed through a governed endpoint and successfully reach the approved foundation model provider.
+>
+> For ZillaForge, this provides a consistent way to manage, secure, and monitor access to foundation models while applying the same governance principles already used for APIs and enterprise services.
 
 ---
 

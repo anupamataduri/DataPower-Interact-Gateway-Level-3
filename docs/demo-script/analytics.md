@@ -1,10 +1,12 @@
 # Part 6: Monitor and Optimize AI Interactions with Analytics
 
-Throughout this demo, we've seen how ZillaForge governs AI interactions, publishes AI-ready capabilities, and manages access to LLM providers. The final step is visibility.
+## Narration — Visibility at Enterprise Scale
 
-As AI adoption grows, organizations need to understand how AI assistants, agents, MCP tools, and LLMs are being used across the enterprise. Interact Gateway provides analytics and observability that help teams monitor usage, investigate individual transactions, identify performance issues, and understand adoption trends.
-
-These insights help ZillaForge not only govern AI interactions, but also continuously optimize and improve them as usage scales across the business.
+> Throughout this demo, we've seen how ZillaForge governs AI interactions, publishes AI-ready capabilities, and manages access to LLM providers. The final step is visibility.
+>
+> As AI adoption grows, organizations need to understand how AI assistants, agents, MCP tools, and LLMs are being used across the enterprise. Interact Gateway provides analytics and observability that help teams monitor usage, investigate individual transactions, identify performance issues, and understand adoption trends.
+>
+> These insights help ZillaForge not only govern AI interactions, but also continuously optimize and improve them as usage scales across the business.
 
 ---
 
@@ -276,11 +278,11 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 ---
 
-## Part 6 Summary
+## Wrap-up
 
-We've seen how ZillaForge uses analytics to gain visibility into AI, MCP, and API interactions across the organization.
-
-For ZillaForge, analytics completes the governance story. It's not enough to expose and secure AI capabilities. Organizations also need the visibility to monitor usage, optimize performance, identify issues, and make informed decisions as AI adoption continues to scale across the enterprise.
+> We've seen how ZillaForge uses analytics to gain visibility into AI, MCP, and API interactions across the organization.
+>
+> For ZillaForge, analytics completes the governance story. It's not enough to expose and secure AI capabilities. Organizations also need the visibility to monitor usage, optimize performance, identify issues, and make informed decisions as AI adoption continues to scale across the enterprise.
 
 ---
 
