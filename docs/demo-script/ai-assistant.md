@@ -38,7 +38,9 @@
 
 **Action:** In the Input field, type:
 
-> **"What products are offered for predictive maintenance and industrial monitoring?"**
+```text
+What products are offered for predictive maintenance and industrial monitoring?
+```
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/824e5cf5-0417-445f-a709-27c7e5d539af/user_cropped_screenshot_bec51a3e3add4f349994225eb474c54e_text_export.jpeg)
 
@@ -64,7 +66,9 @@ The assistant has found the available products. Click **Show more** to see the f
 
 **Action:** In the Input field, type:
 
-> **"Which ZillaForge product would you recommend for a factory looking to reduce unplanned equipment downtime?"**
+```text
+Which ZillaForge product would you recommend for a factory looking to reduce unplanned equipment downtime?
+```
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/89485a69-19cb-4eeb-be0f-df6c8c1d0c4b/user_cropped_screenshot_7b09c9133f0a4b078ef38e68bbb0cb8b_text_export.jpeg)
 
@@ -94,7 +98,9 @@ Notice that the assistant hasn't simply picked a product. It's recommended a **c
 
 **Action:** In the Input box, type:
 
-> **"Which customer orders related to predictive maintenance solutions are currently awaiting fulfilment?"**
+```text
+Which customer orders related to predictive maintenance solutions are currently awaiting fulfilment?
+```
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96f80c47-9360-4453-a456-2358008dbc09/user_cropped_screenshot_14ad4ad0f829404eb9cfd71fd676f359_text_export.jpeg)
 
@@ -122,7 +128,9 @@ Click **Show more** to see the full response. The assistant has identified the c
 
 **Action:** In the Input box, type:
 
-> **"A customer wants to improve asset reliability across multiple manufacturing sites. Which ZillaForge solution would you recommend and why?"**
+```text
+A customer wants to improve asset reliability across multiple manufacturing sites. Which ZillaForge solution would you recommend and why?
+```
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/a53441fd-e7e0-4fe8-94ad-6fceda4a3ceb/user_cropped_screenshot_7f81a6a2405b45eb9093306ca06a91b4_text_export.jpeg)
 
@@ -152,7 +160,9 @@ Click **Show more** to see the full response.
 
 **Action:** In the Input field, type:
 
-> **"A manufacturing customer is planning a digital transformation initiative focused on IoT, predictive maintenance, and automation. Which ZillaForge products best support this strategy, and what existing customer demand should the business be aware of before planning deployment?"**
+```text
+A manufacturing customer is planning a digital transformation initiative focused on IoT, predictive maintenance, and automation. Which ZillaForge products best support this strategy, and what existing customer demand should the business be aware of before planning deployment?
+```
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/8abd49d9-883b-417c-aa0d-73c2e5a7c63d/user_cropped_screenshot_fca0ae050ab34b269dbd0adbe4a11642_text_export.jpeg)
 

@@ -44,11 +44,7 @@
 
 ## Step 5 — Open the Developer Portal
 
-**Action:** Click the **Portal endpoint URL** link:
-
-```text
-https://prod773957.devportal.a-fra-c2.apiconnect.ipaas.ibmappdomain.cloud
-```
+**Action:** Click the **Portal endpoint URL** link: <a href="https://prod773957.devportal.a-fra-c2.apiconnect.ipaas.ibmappdomain.cloud" target="_blank">https://prod773957.devportal.a-fra-c2.apiconnect.ipaas.ibmappdomain.cloud</a>
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/9ba68e95-0772-4fdb-bc40-76bbd6e5b77a/user_cropped_screenshot_ed6fb5fa5a064e3a9d1b26d2e1c987d7_text_export.jpeg)
 
