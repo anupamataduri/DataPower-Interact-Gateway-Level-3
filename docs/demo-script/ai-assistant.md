@@ -40,7 +40,7 @@
 
 > **"What products are offered for predictive maintenance and industrial monitoring?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/824e5cf5-0417-445f-a709-27c7e5d539af/user_cropped_screenshot_8810ef968a914815be2814c18a30046e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/824e5cf5-0417-445f-a709-27c7e5d539af/user_cropped_screenshot_bec51a3e3add4f349994225eb474c54e_text_export.jpeg)
 
 Click the **Send** button.
 
@@ -66,7 +66,7 @@ The assistant has found the available products. Click **Show more** to see the f
 
 > **"Which ZillaForge product would you recommend for a factory looking to reduce unplanned equipment downtime?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/89485a69-19cb-4eeb-be0f-df6c8c1d0c4b/user_cropped_screenshot_fbd2702ae6224401b09f54e5a0956fe6_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/89485a69-19cb-4eeb-be0f-df6c8c1d0c4b/user_cropped_screenshot_7b09c9133f0a4b078ef38e68bbb0cb8b_text_export.jpeg)
 
 Click **Send**.
 
@@ -96,7 +96,7 @@ Notice that the assistant hasn't simply picked a product. It's recommended a **c
 
 > **"Which customer orders related to predictive maintenance solutions are currently awaiting fulfilment?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96f80c47-9360-4453-a456-2358008dbc09/user_cropped_screenshot_5befa36fdd4f4cf3b1c19d39cac45b67_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96f80c47-9360-4453-a456-2358008dbc09/user_cropped_screenshot_14ad4ad0f829404eb9cfd71fd676f359_text_export.jpeg)
 
 Click **Send**.
 
@@ -124,7 +124,7 @@ Click **Show more** to see the full response. The assistant has identified the c
 
 > **"A customer wants to improve asset reliability across multiple manufacturing sites. Which ZillaForge solution would you recommend and why?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/a53441fd-e7e0-4fe8-94ad-6fceda4a3ceb/user_cropped_screenshot_02c1e6dbaaa74adbab6ab9a494eba989_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/a53441fd-e7e0-4fe8-94ad-6fceda4a3ceb/user_cropped_screenshot_7f81a6a2405b45eb9093306ca06a91b4_text_export.jpeg)
 
 Click **Send**.
 
@@ -154,7 +154,7 @@ Click **Show more** to see the full response.
 
 > **"A manufacturing customer is planning a digital transformation initiative focused on IoT, predictive maintenance, and automation. Which ZillaForge products best support this strategy, and what existing customer demand should the business be aware of before planning deployment?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/8abd49d9-883b-417c-aa0d-73c2e5a7c63d/user_cropped_screenshot_d5808f3e19b4407b8afcf519b7444e04_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/8abd49d9-883b-417c-aa0d-73c2e5a7c63d/user_cropped_screenshot_fca0ae050ab34b269dbd0adbe4a11642_text_export.jpeg)
 
 Click **Send**.
 
@@ -162,7 +162,7 @@ Click **Send**.
 
 The assistant has recommended the ZillaForge solutions that best align with the customer's digital transformation objectives while also highlighting existing customer demand that should be considered during planning.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/53f13ebd-25f0-454b-b62e-855d64343560/user_cropped_screenshot_7f746756285f4ba2bcff2393d0b3cb9e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/53f13ebd-25f0-454b-b62e-855d64343560/user_cropped_screenshot_cbcbcae31bf74f008b893796ee86cf7d_text_export.jpeg)
 
 ---
 

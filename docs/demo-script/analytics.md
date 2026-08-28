@@ -1,4 +1,4 @@
-# Part 6: Monitor and Optimize AI Interactions with Analytics
+# Part 5: Monitor and Optimize AI Interactions with Analytics
 
 ## Narration — Visibility at Enterprise Scale
 
@@ -286,4 +286,4 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 ---
 
-**Previous:** [← Part 5: Discover and Consume AI Assets Through the Developer Portal](developer-portal.md) | **Next:** [Conclusion →](conclusion.md)
+**Previous:** [← Part 4: Discover and Consume AI Assets Through the Developer Portal](developer-portal.md) | **Next:** [Conclusion →](conclusion.md)

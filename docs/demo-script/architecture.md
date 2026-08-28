@@ -1,7 +1,7 @@
 # Overview and Architecture
 
 !!! note "Slide Resources"
-    The slides used in this section can be found <a href="https://ibm.seismic.com/Link/Content/DC633F9fdp9cC89T3QDhmmmFGqWB" target="_blank">HERE</a>.
+    The slides used in this section can be found <a href="https://ibm.seismic.com/Link/Content/DCR6bJQ9J86M8GWP7cR79QJPG8J3" target="_blank">HERE</a>.
 
 ---
 
@@ -13,7 +13,7 @@
 >
 > To address these challenges, ZillaForge adopts IBM DataPower Interact Gateway. Acting as an AI mediation governance gateway, it helps the company govern AI interactions, expose existing enterprise capabilities to AI without rebuilding them, and apply consistent security, policy enforcement, and observability across AI-driven traffic. This demo follows ZillaForge's AI adoption journey, showing how Interact Gateway enables organizations to reuse existing APIs, integrations, and business services while bringing AI-initiated interactions under a consistent governance model.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/938d0203-4875-4a69-8b7c-f305b939f0f5/matched_image_action_24_36787e5f921b4cc793adb1c0eb0c9cad_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/938d0203-4875-4a69-8b7c-f305b939f0f5/matched_image_action_24_9505affea4424f9ba717f6e55b53be1d_text_export.jpeg)
 
 ---
 

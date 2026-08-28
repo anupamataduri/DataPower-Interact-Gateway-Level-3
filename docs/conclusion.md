@@ -8,4 +8,4 @@ Rather than building new back-end systems for AI, ZillaForge reused existing API
 
 ---
 
-**Previous:** [← Part 6: Monitor and Optimize AI Interactions with Analytics](analytics.md)
+**Previous:** [← Part 5: Monitor and Optimize AI Interactions with Analytics](analytics.md)

@@ -1,4 +1,4 @@
-# Part 5: Discover and Consume AI Assets Through the Developer Portal
+# Part 4: Discover and Consume AI Assets Through the Developer Portal
 
 ## Narration — The Consumer Experience
 
@@ -14,7 +14,7 @@
 
 **Action:** From the left navigation menu, click **Manage**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/cb078ced-a0f6-4173-94a6-944d256d1bcc/user_cropped_screenshot_a4f17727136a49fb92b718d7d0547304_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/cb078ced-a0f6-4173-94a6-944d256d1bcc/user_cropped_screenshot_13f11a893acf4c419731a82211aee3e7_text_export.jpeg)
 
 ---
 
@@ -22,7 +22,7 @@
 
 **Action:** Click the **Interact Gateway MCP** catalog.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/11dcf64e-4343-4f1f-bf0f-80112b9921b3/user_cropped_screenshot_e67eb55abe1642eb8f06dcb3644b0e58_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/11dcf64e-4343-4f1f-bf0f-80112b9921b3/user_cropped_screenshot_5e410cbf43b844208d4c612996de7ae5_text_export.jpeg)
 
 ---
 
@@ -30,7 +30,7 @@
 
 **Action:** Click the **Catalog settings** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/47acdc6b-228a-448c-97a6-a277ef8ec332/user_cropped_screenshot_6da9e9b1dcc448b0961634c337446277_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/47acdc6b-228a-448c-97a6-a277ef8ec332/user_cropped_screenshot_5441c2c1343043d9b83b7ba05d3020cd_text_export.jpeg)
 
 ---
 
@@ -38,15 +38,19 @@
 
 **Action:** On the left pane, click **Portal**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/bc606c34-f154-407f-8965-1cc0835c321b/user_cropped_screenshot_647e1431242d4eb48ef7849ac7783fb5_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/bc606c34-f154-407f-8965-1cc0835c321b/user_cropped_screenshot_deaea5f6e7af4232a604d8bf0a82fcca_text_export.jpeg)
 
 ---
 
 ## Step 5 — Open the Developer Portal
 
-**Action:** Click the **Portal endpoint URL** link: <a href="https://prod773957.devportal.a-fra-c2.apiconnect.ipaas.ibmappdomain.cloud" target="_blank">https://prod773957.devportal.a-fra-c2.apiconnect.ipaas.ibmappdomain.cloud</a>
+**Action:** Click the **Portal endpoint URL** link:
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/9ba68e95-0772-4fdb-bc40-76bbd6e5b77a/user_cropped_screenshot_0a372749890445baa583bcd9f71ad80c_text_export.jpeg)
+```text
+https://prod773957.devportal.a-fra-c2.apiconnect.ipaas.ibmappdomain.cloud
+```
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/9ba68e95-0772-4fdb-bc40-76bbd6e5b77a/user_cropped_screenshot_ed6fb5fa5a064e3a9d1b26d2e1c987d7_text_export.jpeg)
 
 ---
 
@@ -54,11 +58,11 @@
 
 The Developer Portal is displayed. On the top bar, click **Sign in**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/87dbb946-5d15-4a31-8583-fc992753bb68/user_cropped_screenshot_d115861dee754f11b37f864c19d579d6_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/87dbb946-5d15-4a31-8583-fc992753bb68/user_cropped_screenshot_565c24f4d3c549868f7e3b868a21a0d3_text_export.jpeg)
 
-You can sign in with your account details or with IBM WHI credentials. Here we are using **Sign in with IBM WHI**.
+Sign in with the Developer Portal log in details you received in your **TechZone reservation email**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/b38c37a3-ec54-4e50-b2c8-28f65101ecfb/user_cropped_screenshot_0f2b093749b043b2aa03166f266af9ba_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/48e04d5f-3e35-4bba-a70b-8277450e3448/user_cropped_screenshot_79256ec8308749168e89fa6aab437c7d_text_export.jpeg)
 
 ---
 
@@ -68,7 +72,7 @@ The Developer Portal home page is displayed.
 
 **Action:** From the left navigation menu, click **Asset gallery**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/4ea36ee2-728c-497d-a32d-72ceca6b8c60/user_cropped_screenshot_7f098f6a81074467a3198305c778384b_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/4ea36ee2-728c-497d-a32d-72ceca6b8c60/user_cropped_screenshot_f3e5e0f2f6cc4bf880c29813397be0ac_text_export.jpeg)
 
 ---
 
@@ -86,11 +90,11 @@ The Developer Portal home page is displayed.
 
 **Action:** On the api-bedrock-conn-75rtd tile, click the **Tryout** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/043e0399-f8b2-4fa0-8551-3f5270ab0efd/user_cropped_screenshot_eeca206171014ac99c69bb3896970b33_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/043e0399-f8b2-4fa0-8551-3f5270ab0efd/user_cropped_screenshot_8940c498c9eb4c8796b76c738b5a5aad_text_export.jpeg)
 
 Here you can see the same four operations you noticed while registering the LLM and in the policy sequence.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/f93c5828-ac65-4c92-8108-03370dce7050/user_cropped_screenshot_5c3cecc912a948669eb836d8f1c87793_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/86dabc22-a72d-42d0-b698-79fc885f39ef/user_cropped_screenshot_dec0090a405c43e09e2566e250634ff2_text_export.jpeg)
 
 ---
 
@@ -106,49 +110,21 @@ Here you can see the same four operations you noticed while registering the LLM 
 
 **Action:** On the left navigation pane, click **> /models** to expand it.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5081035c-b54f-45bd-ac39-026f60db10c6/user_cropped_screenshot_134a45e9ac8b419bb71b47b40159776f_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/3bab6f78-77e9-486d-ac2b-11adcff763e6/user_cropped_screenshot_dd3e6a02263548cda475b61d9e512a89_text_export.jpeg)
 
 **Action:** Click **GET**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5881cebf-601c-4ba0-add9-1b75373e4c29/user_cropped_screenshot_884a66275e6d4f1daba43716a02772da_text_export.jpeg)
-
-**Action:** Click the **Headers** tab.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/40683c02-3333-4c06-8bf9-23375abf73ac/user_cropped_screenshot_a86b39523a1a40039416858ce7e7d4eb_text_export.jpeg)
-
-We need to add the required headers.
-
-**Action:** In the Key field, type **X-IBM-Client-Id**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/9cae2fef-28f6-49ae-a529-b3e9f6825242/user_cropped_screenshot_8bf4218524634bc6868177f460fc2ca2_text_export.jpeg)
-
-**Action:** In the Value field, type **9d7f0a40739fcb334edf5beccb5ce744**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/c82f6bbc-93be-4b47-a5bb-a8997e7157d6/user_cropped_screenshot_f53d7819e3ae4d23a97130769cb3ca17_text_export.jpeg)
-
-**Action:** Click **Add new**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/89c2f43f-287d-41a4-9532-deac8176b56d/user_cropped_screenshot_51382f5936164ee4b3f1b7fc8ab1aa73_text_export.jpeg)
-
-Next we need to add the client secret.
-
-**Action:** In the Key field, type **X-IBM-Client-Secret**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/2c197c6d-c354-496a-a989-14803bac4215/user_cropped_screenshot_9e04e5cd5d734f34aabf17c3a962afc1_text_export.jpeg)
-
-**Action:** In the Value field, type **260c4607b62e4a4607fbac8289a7c6a9**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/a4a1eb97-1c60-43c0-bcfe-bbb8f2e5649b/user_cropped_screenshot_9e980340512645f48b298cb514691a87_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/6545ab6c-3103-4f0b-8805-5c6643976a3a/user_cropped_screenshot_e46de1dcf5c348688d8b1645491b67cc_text_export.jpeg)
 
 **Action:** Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/714d93f3-c9f0-467e-983e-c60e89c76cfc/user_cropped_screenshot_a5ab5ab30633464c865f4088a2710fa2_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/a1178fad-99e5-4a83-a062-3c72ca03582e/user_cropped_screenshot_83f311ef460a44b3a577b9751781d5c9_text_export.jpeg)
 
 **Action:** Scroll down to view the response.
 
 You are now looking at the response from Bedrock. In this case, we're retrieving the models that are available for use.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/fe15a6cd-2f1e-4761-adda-e5da4511383a/user_cropped_screenshot_2ecd51739a9a4f868ee00a84c5063808_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/6d24bc4c-788b-4845-a401-5f563690c462/user_cropped_screenshot_446a985b9fc84c78ab89d598fb006614_text_export.jpeg)
 
 ---
 
@@ -164,43 +140,13 @@ You are now looking at the response from Bedrock. In this case, we're retrieving
 
 ## Step 10 — Test Chat Completions
 
-**Action:** On the left navigation pane, click **> /chat/completions** to expand it.
+**Action:** On the left navigation pane, click **> /chat/completions** to expand it and click **POST**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/6a4017c8-a1c2-4425-8b88-f89a79bc4087/user_cropped_screenshot_1e928a920f224ba68f175c1c8fa7f584_text_export.jpeg)
-
-**Action:** Click **POST**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/c68c3570-0026-48f2-ae11-9150af430838/user_cropped_screenshot_dfbf5c8966274f83a56d6bcd2955d291_text_export.jpeg)
-
-**Action:** Under the Headers tab, click **Add new**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/00016703-b6b7-4cec-8071-b83111a08ef4/user_cropped_screenshot_9424498371974ceabd82684934750c77_text_export.jpeg)
-
-Let's add the required headers again.
-
-**Action:** In the Key field, type **X-IBM-Client-Id**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/135b9e82-1372-4b4c-a0fc-3b3f164a35dc/user_cropped_screenshot_56685d2b8aad4bcc87f6d6656bfcecc9_text_export.jpeg)
-
-**Action:** In the Value field, type **9d7f0a40739fcb334edf5beccb5ce744**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/e8ed1c1f-a907-4846-a267-729491f80aa8/user_cropped_screenshot_012bf7aa99d04a9487053ffe93b73ec1_text_export.jpeg)
-
-**Action:** Click **Add new** to add the client secret.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/80663c8a-09e2-4f3f-af74-6b0aea665b1b/user_cropped_screenshot_7ffae90e76e14d938d830627690e2b98_text_export.jpeg)
-
-**Action:** In the Key field, type **X-IBM-Client-Secret**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/0151bbab-0380-40d2-8cde-d2029a480609/user_cropped_screenshot_dc66dbb1a99d49bdbb02d27eaf322193_text_export.jpeg)
-
-**Action:** In the Value field, type **260c4607b62e4a4607fbac8289a7c6a9**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/104a551c-a435-4b96-a2ea-c460c3b8ef7e/user_cropped_screenshot_01782947ecf746c8ab98577dfd94cbc9_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/e07a15b6-1fbc-4461-9869-8a53cffbf0fe/user_cropped_screenshot_713e559b89d445a390734414454f4e17_text_export.jpeg)
 
 **Action:** Click the **Request Body** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/319cf3fb-0bea-436e-9813-0b6cc2f5e3af/user_cropped_screenshot_12a6e1aa949e451ab08eda7e57a403db_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/4740b087-bd11-411c-8b16-8a378ca16af6/user_cropped_screenshot_5e614339e0a44d329498f1786cc38679_text_export.jpeg)
 
 ---
 
@@ -229,15 +175,15 @@ Let's add the required headers again.
 }
 ```
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/4db95d7d-2a40-40b5-97c2-34bf2ad9af28/user_cropped_screenshot_a6143d5a3d3642a0ae959ddad6a57e88_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/d2e5168d-ab88-414e-b6cf-a1d523c6be2b/user_cropped_screenshot_cabcd054051b4deda050fa3d09f47245_text_export.jpeg)
 
 **Action:** Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5484b4f7-bbac-411c-93eb-8ec4a76d75d3/user_cropped_screenshot_785df10257844feda1b1be5cb00bff9d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5484b4f7-bbac-411c-93eb-8ec4a76d75d3/user_cropped_screenshot_332e7f9a9e064222a62a0287d2c58dd9_text_export.jpeg)
 
 **Action:** Scroll down to review the generated response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/a44ee566-3583-460b-98bc-6bd8c5331afa/user_cropped_screenshot_fd4cf3fe242a45178d295f3951fd8b66_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/a44ee566-3583-460b-98bc-6bd8c5331afa/user_cropped_screenshot_a074a87dbdd3436f90dadc0737a7f9bd_text_export.jpeg)
 
 ---
 
@@ -251,4 +197,4 @@ Let's add the required headers again.
 
 ---
 
-**Previous:** [← Part 4: Register and Govern LLM Providers](llm-governance.md) | **Next:** [Part 6 - Monitor and Optimize AI Interactions with Analytics →](analytics.md)
+**Previous:** [← Part 3: Register and Govern LLM Providers](llm-governance.md) | **Next:** [Part 5 - Monitor and Optimize AI Interactions with Analytics →](analytics.md)
