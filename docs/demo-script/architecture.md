@@ -49,6 +49,9 @@
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96c28c7f-bb98-4aaf-bc1d-57e753df459f/screenshot_37d74931d4f3469883123c93e4269aea_text_export.jpeg)
 
+!!! warning "Note"
+    This guide was originally developed using DataPower Interact Gateway within API Connect SaaS. An updated version based on Interact Gateway standalone is planned and will be published in the future.
+
 ---
 
 **Next:** [Part 1 - ZillaForge AI Assistant →](ai-assistant.md)
