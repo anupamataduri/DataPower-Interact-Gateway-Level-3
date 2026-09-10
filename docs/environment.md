@@ -14,49 +14,97 @@ The DataPower Interact Gateway demo environment runs in the cloud and can be res
 
 ### Step 1 — Log in to IBM TechZone
 
-Login to IBM TechZone at: <a href="https://techzone.ibm.com/search" target="_blank">https://techzone.ibm.com/search</a>
+Log in and access the environment on IBM TechZone: <a href="https://techzone.ibm.com/collection/ibm-integration-apic-and-idig-level-3" target="_blank">https://techzone.ibm.com/collection/ibm-integration-apic-and-idig-level-3</a>
 
-Search for **DataPower Interact Gateway** in the Search bar **(A)**.
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/77a99128-4665-4cb5-a1e8-ca9a51cd9d73/action-56e1c8d3a23141af946af052d191e1c4_0cb4e6a8f60242b8a88805cd3a628edb_text_export.jpeg)
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/cfdcb999-c19b-4694-a70d-56bab4033e04/matched_image_action_8_2ee2983d0a984b09b168434b71909958_text_export.jpeg)
+### Step 2 — Open the Environments Tab
 
-### Step 2 — Select the Collection
+Click the **Environments** tab.
 
-Select the **webMethods Hybrid Integration L3 Enablement** in the results by clicking on **Explore this collection (B)**.
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/5996e94c-f769-4d84-948c-408768a02d7e/user_cropped_screenshot_c593a448c0c44d0f97559f513f5b0b85_text_export.jpeg)
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/b81cdbdd-9553-433e-8d39-6d62202e86aa/matched_image_action_9_6cbaf762d1b548f3a96db37f360e1e20_text_export.jpeg)
+### Step 3 — Reserve the Environment
 
-### Step 3 — Navigate to Environments
+Hover over the IBM Cloud button and click **Reserve it**.
 
-Select **Environments (C)** from the left-hand side menu.
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/531afb63-1258-4dde-a9d7-019973b169c9/user_cropped_screenshot_14a3f1b7351c4b0ab8265f5888b10990_text_export.jpeg)
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/137241cd-3a47-4104-8eee-3f4c4f836021/matched_image_action_10_1f0d1e9da35344fbb17fb9b59cb6b809_text_export.jpeg)
+### Step 4 — Enter a Name
 
-### Step 4 — Reserve the Environment
+In the Name field, type:
 
-Hover over the IBM Cloud environment button and click on **Reserve it (D)**.
+```text
+DataPower Interact Gateway L3
+```
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/4d405ae1-7a2f-4aa3-a86d-776674fe6a77/matched_image_action_11_39398bb300f046dcbadada94ef826025_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/fecbf784-8df8-476e-88e9-1f06fb2e00bc/user_cropped_screenshot_6fa02fcc79fe459caba20298ec6dd009_text_export.jpeg)
 
-### Step 5 — Select Education
+### Step 5 — Enter a Description
 
-Select the **Education** tile **(E)**.
+In the Description field, type:
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/ba1a8a10-515d-4f64-b64f-581b46b4cb19/matched_image_action_12_64569933900142d7af3663049595d76f_text_export.jpeg)
+```text
+Self-enablement
+```
 
-### Step 6 — Fill in Reservation Details
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/d948516e-131c-4762-8375-ac0ca1f25220/user_cropped_screenshot_d932b2f2a4f64e9faeca5356fa84153c_text_export.jpeg)
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/6d3a2c51-d291-4462-9bb7-945350e2e355/matched_image_action_13_f87e0146b8964a92a265871dd9461696_text_export.jpeg)
+### Step 6 — Click Next
 
-Provide Description as **self-enablement** and choose other fields as shown below.
+Click **Next**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/42e68503-f27a-43bb-9a0a-73475fd056f1/matched_image_action_14_e36ee21336f54d1f8f45ca594b6481bf_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/26ac0b99-def6-4fc9-ad23-7344b1f91142/user_cropped_screenshot_004e3378969f4bd38e64729db13a749e_text_export.jpeg)
 
-### Step 7 — Submit
+### Step 7 — Select the Learning Tile
 
-Select the terms and conditions checkbox and click **Submit (F)**.
+Click the **Learning** tile.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/4cc0ea81-1978-459c-bec5-b98d15c23b6c/matched_image_action_15_f83720eb97bb4a78add8c008ae91dd45_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/3c6a82fd-6c6c-4836-b607-0d7a0be6b40b/user_cropped_screenshot_28c742464db04d6aab18e2e6159779ca_text_export.jpeg)
+
+### Step 8 — Click Next
+
+Click **Next**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/00590155-704f-4ba1-a108-a9ad4067e778/user_cropped_screenshot_0fef830c81ca4deca1fb6b0e4078b426_text_export.jpeg)
+
+### Step 9 — Select a Geography
+
+Select a **Geography**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/c71bc5ee-5475-4a96-b8f5-d3dce41c0c21/user_cropped_screenshot_a56456d8e1074a028282dd1acad71428_text_export.jpeg)
+
+### Step 10 — Click Next
+
+Click **Next**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/7d833c88-cc62-40aa-a5f0-2cacec7455f4/user_cropped_screenshot_b2dbe377387340f2a1b070c43739853e_text_export.jpeg)
+
+### Step 11 — Scheduling
+
+In the Scheduling tab, leave the default dates and click **Next**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/f0b5dbdc-d0d3-45c2-a5a9-0dbd7176c733/user_cropped_screenshot_2d88488cefd44b479f77089ec70b7343_text_export.jpeg)
+
+### Step 12 — Review Configuration
+
+In the Configuration tab, click **Review**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/a42fad99-da5f-4361-8a6c-ea43d02b5d6a/user_cropped_screenshot_3bc395dace02448797d23373c8f2f474_text_export.jpeg)
+
+### Step 13 — Agree and Submit
+
+Review all the details and select the **I agree...** check box.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/01a898d9-4966-4159-be7f-85a6cef18c31/user_cropped_screenshot_ddb6e00ab31a4f63bf17af58cfbb4a62_text_export.jpeg)
+
+Click **Submit**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/17e6ab15-8576-4abf-af15-17e37f038b6c/user_cropped_screenshot_99f17386112844f3aa6c2f695fff1821_text_export.jpeg)
+
+A success message is displayed and you can track your request.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/3f2fd929-a07d-4546-938e-7c3462d89233/user_cropped_screenshot_e5533aa4abeb4d1ca009845568330b9a_text_export.jpeg)
 
 !!! note "Note to Learners"
     You will receive an email when the environment is provisioned with instructions on how to access it. This action could take up to **15–20 minutes**.
@@ -65,26 +113,30 @@ Select the terms and conditions checkbox and click **Submit (F)**.
 
 ## Accessing Your Environment
 
-### Step 8 — Open Your Reservation
+### Step 14 — Open Your Request
 
-Click on the **View My Reservations (A)** link in the provisioning email.
+Click on the **View your request** link in the email.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/1bf22aa4-9032-48f8-8716-fcc059de0b33/matched_image_action_17_1f8cd5324da3483d839f1830f0959412_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/dc822387-9f0f-4c0e-bf4f-4299158d0db2/user_cropped_screenshot_c69876ed0a83471b9d8522386ebd6484_text_export.jpeg)
 
-### Step 9 — Open the Environment
+### Step 15 — Expand the Reservation
 
-Click on **Open this environment (B)** on the reservation card.
+Click to expand the drop-down for the **IBM DataPower Interact Gateway Level 3** item.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/6152ca1f-f75d-4abe-80d5-d550f50d8421/matched_image_action_18_90586c0dac20439b9c7f373ffebd4675_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/07b75591-8099-4831-8b5a-c5ac63eddfc3/user_cropped_screenshot_a09087cfbafa48cd879eadb4c5e2ff77_text_export.jpeg)
 
-### Step 10 — Find Your Credentials
+### Step 16 — Find Your Credentials
 
-Scroll down on the reservation details page to find the webMethods Hybrid Integration URL and credentials for B2B and MFT WebClient.
+Scroll down on the reservation details page to find the Instance URL. Use your **IBM w3/ID credentials** to log in. Also, make a note of the credentials for the **Developer Portal** — you will use these later in the guide.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/5bcbae50-b1e3-4b30-85f6-7ecf66a3158d/matched_image_action_19_4c72da6b03244fa39bff12ac554d3873_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/3968c8c5-48b4-4367-a73f-8401628b8c70/user_cropped_screenshot_6d60f1913a2b4a95b26b69ce2d460009_text_export.jpeg)
 
-### Step 11 — Bookmark the Home Page
+### Step 17 — Navigate to API Connect
 
-Once you connect, bookmark the IBM webMethods Hybrid Integration home page. You should see the screen below.
+Once you connect, you can see the IBM Integration platform home page. Click the **right arrow** on the API Connect tile.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/1b87ca4a-7806-4ac2-9276-927e7babb36c/matched_image_action_20_5b53f733ff004fc08dc9e111b989bb43_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/bd15f5a7-fb77-460e-b085-2ce126abfbc4/user_cropped_screenshot_0ee9894c54e7423db6b5d6e81e3c2edc_text_export.jpeg)
+
+You are now in API Connect.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/017d74ad-8a7e-42f6-908a-e1ae6edf5a21/screenshot_8153eefd038e4305b6160195efb58ccd_text_export.jpeg)
