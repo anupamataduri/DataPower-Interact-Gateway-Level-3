@@ -14,11 +14,11 @@
 
 **Action:** Back in API Connect, click the **Manage** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/c513e7e9-cf4f-4c1a-a6b0-2b3caeb43b4e/user_cropped_screenshot_b1e02058235e4b23bba1dcc8c7bef46a_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/c513e7e9-cf4f-4c1a-a6b0-2b3caeb43b4e/user_cropped_screenshot_91b7781e14124880a40688c12bde8b23_text_export.jpeg)
 
 **Action:** Click the **Interact Gateway MCP** catalog.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/4b40bdd3-98a5-488a-8de0-84d73e99da17/user_cropped_screenshot_966af909c8f940e4bb86d8543d44a493_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/4b40bdd3-98a5-488a-8de0-84d73e99da17/user_cropped_screenshot_5ce2834921304539b6cd29881aa23c2b_text_export.jpeg)
 
 ---
 
@@ -26,7 +26,7 @@
 
 **Action:** Let's view the analytics for the Inventory MCP server. For the inventoryapis-server-ow85v server, click the **Analytics** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/52cd1109-aeb2-42c3-8ace-7f69a24f6007/user_cropped_screenshot_3dd42e098d674643afeeae288398b818_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/52cd1109-aeb2-42c3-8ace-7f69a24f6007/user_cropped_screenshot_4bcffdba69054a33a2ef0925846af66a_text_export.jpeg)
 
 ---
 
@@ -42,7 +42,7 @@
 
 **Action:** Click a transaction to drill down and view more details.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/92134ee7-09db-4509-af3b-4b94794ef233/user_cropped_screenshot_2208422cee304f0b97c4c590ecdcadf8_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/92134ee7-09db-4509-af3b-4b94794ef233/user_cropped_screenshot_ece1eaabe75647e1b75a8294525ff774_text_export.jpeg)
 
 ---
 
@@ -58,7 +58,7 @@
 
 **Action:** Click the **Backend request and response** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/defe04dd-0fea-4dd8-a950-792be0f784fa/user_cropped_screenshot_bc21993f74f647feb8834f8bea7816f5_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/defe04dd-0fea-4dd8-a950-792be0f784fa/user_cropped_screenshot_77c356b287244843b0b9b41e950f15c8_text_export.jpeg)
 
 ---
 
@@ -72,7 +72,7 @@
 
 **Action:** Click the **Policy flow latencies** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/59ee5977-e9db-4d30-b5ab-21c4710e61b6/user_cropped_screenshot_e88418a921ca407ba2a577bab4aa318a_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/59ee5977-e9db-4d30-b5ab-21c4710e61b6/user_cropped_screenshot_af3e231c3ed149babf4d92896cb50dee_text_export.jpeg)
 
 ---
 
@@ -86,7 +86,7 @@
 
 **Action:** Click the **Event record** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/57bd636f-e3b0-4f3c-92d3-6a4f94fd81aa/user_cropped_screenshot_8d6b6a59eac4417687b7d760671db861_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/57bd636f-e3b0-4f3c-92d3-6a4f94fd81aa/user_cropped_screenshot_79a18fb9a7f7403b95a544d13548cdea_text_export.jpeg)
 
 ---
 
@@ -100,7 +100,7 @@
 
 **Action:** Scroll down to view the complete record.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/6dc26ed3-063e-4749-95f3-220d0a79914a/screenshot_5af67a47a4ed4d6caa50a9ebcc10525c_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/6dc26ed3-063e-4749-95f3-220d0a79914a/screenshot_8f6e3d6f5ec14588b0a5e7495ba7164f_text_export.jpeg)
 
 ---
 
@@ -118,7 +118,7 @@
 
 **Action:** In the Analytics side navigation, click **Reports** to expand it.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/375799bb-7437-46e0-a188-269c649a9164/user_cropped_screenshot_3e465f7a1abd4991933ee8a520a05e1d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/375799bb-7437-46e0-a188-269c649a9164/user_cropped_screenshot_3b3050b5b0ad46ca8a1e3b2d489e9c9f_text_export.jpeg)
 
 ---
 
@@ -126,7 +126,7 @@
 
 **Action:** Click **AI Platform report**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/eba8fe89-f735-48f6-9c47-6076b9552deb/user_cropped_screenshot_b232671ce8194e498990f2a9c74f2cde_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/eba8fe89-f735-48f6-9c47-6076b9552deb/user_cropped_screenshot_556a15cdbca5438ebec3620167f7b1c0_text_export.jpeg)
 
 ---
 
@@ -142,11 +142,11 @@
 
 **Action:** On the AI Insights & analysis section of the report, click **Show detailed analysis**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/1f8a5d3d-3095-4c93-bbb2-ad12d6c856a0/user_cropped_screenshot_edccfd4038a94858969ac4f97d5dd0ec_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/1f8a5d3d-3095-4c93-bbb2-ad12d6c856a0/user_cropped_screenshot_29ad20ed5ebc488c80902be05715cd79_text_export.jpeg)
 
 Review Key Insights and recommendations. Scroll down to view other sections of the report.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/bdc886dd-c2d8-4703-89da-43394a744d3e/user_cropped_screenshot_8e85054a0955421c802d1781c5534532_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/bdc886dd-c2d8-4703-89da-43394a744d3e/user_cropped_screenshot_403525c0c9494bf89694a2546bc4cbb8_text_export.jpeg)
 
 ---
 
@@ -154,7 +154,7 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** When you're done reviewing the report, click **Consumption report**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/ddb82e61-e99b-4a5d-b83a-8eb789142cff/user_cropped_screenshot_6cbbdf2a0284484d8aca909473c561ae_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/ddb82e61-e99b-4a5d-b83a-8eb789142cff/user_cropped_screenshot_c1a16603c2934151bd7f6c5222337d14_text_export.jpeg)
 
 ---
 
@@ -170,7 +170,7 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** Scroll down to review all the sections of the report.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/d04863c5-735c-43a2-af22-f2b0b60f550f/user_cropped_screenshot_dcb450692bec4677a635a5fba13fe43c_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/d04863c5-735c-43a2-af22-f2b0b60f550f/user_cropped_screenshot_c4a959ae6f2149e5999d8e44df43e724_text_export.jpeg)
 
 ---
 
@@ -190,7 +190,7 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** In the Analytics side navigation, click **Dashboards** to expand it.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/84d79fef-f07e-4070-a0c2-4d9cc756d07d/user_cropped_screenshot_a4cf6fb61b644b3d8c5d51c009f9848d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/84d79fef-f07e-4070-a0c2-4d9cc756d07d/user_cropped_screenshot_b9a8370dab8e48628dd3923b0c99c132_text_export.jpeg)
 
 ---
 
@@ -198,7 +198,7 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** Click **MCP**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/64237f71-ff5e-4cd1-a409-5d2d1b48c17d/user_cropped_screenshot_68e53bf182b741f1a99532b9d5b19237_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/64237f71-ff5e-4cd1-a409-5d2d1b48c17d/user_cropped_screenshot_35ea1bffc61247b6ae576f8e2393a3f2_text_export.jpeg)
 
 ---
 
@@ -214,7 +214,7 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** Scroll down to review various sections of the dashboard.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/14c339ed-1424-4505-a5a0-3e6c6c4b7adb/user_cropped_screenshot_0097575916fc44e39dafe68134b53d02_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/14c339ed-1424-4505-a5a0-3e6c6c4b7adb/user_cropped_screenshot_ffe89a1ec23842d5a2a4777bde2f6f55_text_export.jpeg)
 
 ---
 
@@ -222,7 +222,7 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** When you're done, click the **AI LLM** dashboard from the side navigation.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/f89718a3-b839-4383-a199-ed0a4b2eacd1/user_cropped_screenshot_dd0cfac49314444388975a084b6d839e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/f89718a3-b839-4383-a199-ed0a4b2eacd1/user_cropped_screenshot_f81a156f38974cbdbfa6ca3e34f25f2c_text_export.jpeg)
 
 ---
 
@@ -240,11 +240,11 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** Review sections of the Overview tab. When you're done, click the **Detailed usage** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/9acfff80-584b-4d73-9012-56d7d7dd6fb2/user_cropped_screenshot_ec4e735b153442fb98f09ec74a75741e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/9acfff80-584b-4d73-9012-56d7d7dd6fb2/user_cropped_screenshot_aae08b0a988b422fb2cc9528bb66356e_text_export.jpeg)
 
 **Action:** Scroll down to review various sections describing detailed usage.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/584d10db-03fa-41b8-ba07-6097d788968e/user_cropped_screenshot_fa3ae5c6305445cf9c55dcd88985912b_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/584d10db-03fa-41b8-ba07-6097d788968e/user_cropped_screenshot_55d06cd1e3254690a796d09b9b02c0c7_text_export.jpeg)
 
 ---
 
@@ -252,7 +252,7 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** When you're done, click the **Gateway** dashboard from the left navigation.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/64134873-191c-457b-9fc8-d1d8902e85a5/user_cropped_screenshot_865b0e4db9454166b4c4c954b91d0458_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/64134873-191c-457b-9fc8-d1d8902e85a5/user_cropped_screenshot_636769794c9047feb7e61a5db0c0b9cc_text_export.jpeg)
 
 ---
 
@@ -270,11 +270,11 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 **Action:** Click the gateway **Service** to expand it.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/368586d6-23a2-4fd6-b448-5512bd4141f4/user_cropped_screenshot_f8d1e203c82c43ca91c38d4ba5d5937c_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/368586d6-23a2-4fd6-b448-5512bd4141f4/user_cropped_screenshot_38edbbb707514431877727b76d708ca7_text_export.jpeg)
 
 **Action:** Scroll down to review various sections of the dashboard.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/cbd5408a-0e48-47f5-a68b-c817bb5df403/user_cropped_screenshot_2e449a4c98cd4e0985880a010ba9bbb4_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/cbd5408a-0e48-47f5-a68b-c817bb5df403/user_cropped_screenshot_1f97b353945e4afbb419e31ad612a2d8_text_export.jpeg)
 
 ---
 

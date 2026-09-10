@@ -14,7 +14,7 @@
 
 **Action:** Navigate to <a href="http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/" target="_blank">http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/</a>
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_347f7cd98b4f4565b2a578a2261170f1_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_064d3275912a4a1d83342269bad7f097_text_export.jpeg)
 
 ---
 
@@ -30,7 +30,7 @@
 
 **Action:** Click the ZillaForge **AI assistant** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/560bc599-d52f-495e-9fc0-63671268bda8/user_cropped_screenshot_2d5c87344e674849b73a23bbc97dfbe4_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/560bc599-d52f-495e-9fc0-63671268bda8/user_cropped_screenshot_b7ecb4f0c2604925a3646232b2984f1b_text_export.jpeg)
 
 ---
 
@@ -46,11 +46,11 @@ What products are offered for predictive maintenance and industrial monitoring?
 
 Click the **Send** button.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/39500f3f-c311-4c44-ae4a-35075daa3d72/user_cropped_screenshot_6cc95538f23d456d80b59a282cfb5a90_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/39500f3f-c311-4c44-ae4a-35075daa3d72/user_cropped_screenshot_3450943182ff4fb1b721a615cb0a5b55_text_export.jpeg)
 
 The assistant has found the available products. Click **Show more** to see the full response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0adcc52b-9cea-44a8-bd18-46f76b49c09c/user_cropped_screenshot_474f4d900f7d4c45a85cb449e3bb575a_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0adcc52b-9cea-44a8-bd18-46f76b49c09c/user_cropped_screenshot_1ed742c2a1b14540956633d34e400807_text_export.jpeg)
 
 ---
 
@@ -74,15 +74,15 @@ Which ZillaForge product would you recommend for a factory looking to reduce unp
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/33364435-7b54-401a-b562-d62ad704102c/user_cropped_screenshot_82a9199cb98c48e7bb0c4dd958077fe4_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/33364435-7b54-401a-b562-d62ad704102c/user_cropped_screenshot_33a0cb72497e4917bb39cd99d2b82361_text_export.jpeg)
 
 Click **Show more** to see the entire response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/948adec9-784c-4179-bc70-5a7729d669f1/user_cropped_screenshot_4e2a587325574d05bdb548e190d17983_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/948adec9-784c-4179-bc70-5a7729d669f1/user_cropped_screenshot_bbd7823e2df149fb8b2c1b42da351d70_text_export.jpeg)
 
 Notice that the assistant hasn't simply picked a product. It's recommended a **complete solution** and explained why the products work together.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/206803c5-6667-42af-b53d-6ff5820e8ef6/user_cropped_screenshot_fdbbe2c342ac49a797dc5c56c05b1402_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/206803c5-6667-42af-b53d-6ff5820e8ef6/user_cropped_screenshot_7814cbda75844596b9376b1831d425fc_text_export.jpeg)
 
 ---
 
@@ -106,11 +106,11 @@ Which customer orders related to predictive maintenance solutions are currently 
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2fcc5813-7f88-4863-b064-eec19a75701d/user_cropped_screenshot_382f10908f2948c3877888e836ad8415_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2fcc5813-7f88-4863-b064-eec19a75701d/user_cropped_screenshot_edc73df5a2fb4c7fb8f896a0581ac53b_text_export.jpeg)
 
 Click **Show more** to see the full response. The assistant has identified the customer orders that are currently awaiting fulfilment and related to predictive maintenance solutions.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/248ad69c-22e8-44bf-9886-6b462f7b74dd/user_cropped_screenshot_6c80258c043e49f591a5ba6163b18be8_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/248ad69c-22e8-44bf-9886-6b462f7b74dd/user_cropped_screenshot_570ebaba9c7b48b9a625f5840599ecb9_text_export.jpeg)
 
 ---
 
@@ -136,13 +136,13 @@ A customer wants to improve asset reliability across multiple manufacturing site
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/93ade370-b968-4dc2-b5a6-0ba9d182987f/user_cropped_screenshot_7fb76f7f8d4d423b982149b4e948d986_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/93ade370-b968-4dc2-b5a6-0ba9d182987f/user_cropped_screenshot_3e4aefacbd924a379fe970ef719f83cb_text_export.jpeg)
 
 The recommendation is supported by operational information. You can see several assets with elevated failure risk. The assistant is also **identifying a pattern across multiple sites** rather than highlighting an isolated device issue.
 
 Click **Show more** to see the full response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0cbd481a-02d7-4e7b-a353-189fdd79738d/user_cropped_screenshot_09058b85ce2e4a519e4d51ae43a59329_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0cbd481a-02d7-4e7b-a353-189fdd79738d/user_cropped_screenshot_5c833b467fc546529dafa8b5c8f4a412_text_export.jpeg)
 
 ---
 
@@ -168,7 +168,7 @@ A manufacturing customer is planning a digital transformation initiative focused
 
 Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/40a45308-5a99-4f0a-b594-243fd8ebd130/user_cropped_screenshot_8e645d9b8ae44b6a941a7fb2326a3809_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/40a45308-5a99-4f0a-b594-243fd8ebd130/user_cropped_screenshot_a24b9073fa8d4aecbb1fce4722a3215b_text_export.jpeg)
 
 The assistant has recommended the ZillaForge solutions that best align with the customer's digital transformation objectives while also highlighting existing customer demand that should be considered during planning.
 

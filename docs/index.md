@@ -8,7 +8,7 @@ Welcome to the **DataPower Interact Gateway Level 3 Enablement Demo Guide**. Thi
 
 Through a real-world enterprise AI adoption scenario and a guided stand-and-deliver demonstration, this guide will equip learners with the knowledge and confidence needed to articulate how organizations can govern, secure, observe, and scale AI-initiated interactions.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/b4429c6f-6b3a-4c4d-a20b-4ab0276eb290/matched_image_action_0_a12bdbb233e04a198c8d453b1ba894c8_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/b4429c6f-6b3a-4c4d-a20b-4ab0276eb290/matched_image_action_0_40ae3082ce5d42f3b5bb6e176904a326_text_export.jpeg)
 
 ---
 
