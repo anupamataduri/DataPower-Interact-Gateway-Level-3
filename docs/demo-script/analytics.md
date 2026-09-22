@@ -286,4 +286,4 @@ Review Key Insights and recommendations. Scroll down to view other sections of t
 
 ---
 
-**Previous:** [← Part 4: Discover and Consume AI Assets Through the Developer Portal](developer-portal.md) | **Next:** [Conclusion →](conclusion.md)
+**Previous:** [← Part 4: Discover and Consume AI Assets Through the Developer Portal](developer-portal.md) | **Next:** [Conclusion →](../conclusion.md)
