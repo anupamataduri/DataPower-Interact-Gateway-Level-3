@@ -1,0 +1,70 @@
+# ─────────────────────────────────────────────
+# Project info  ← update these 4 lines
+# ─────────────────────────────────────────────
+site_name: YOUR PRODUCT Level 3
+site_description: IBM YOUR PRODUCT Technical Sales Level 3 Demo Guide
+site_author: Your Name (your.email@ibm.com)
+copyright: Copyright &copy; 2026 IBM
+
+# Repository  ← update to your GitHub repo
+repo_name: anupamataduri/YOUR-REPO-NAME
+docs_dir: docs
+
+# ─────────────────────────────────────────────
+# Navigation  ← add/remove pages to match your guide
+# ─────────────────────────────────────────────
+nav:
+  - Introduction: 'index.md'
+  - Prerequisites: 'prerequisites.md'
+  - Product Overview: 'overview.md'
+  - About the Scenario: 'scenario.md'
+  - Environment Setup: 'environment.md'
+  - Demo Guidelines: 'demo-guidelines.md'
+  - Demo Script:
+    - Overview & Architecture: 'demo-script/architecture.md'
+    - Part 1 - <Part Title>: 'demo-script/part1.md'
+    - Part 2 - <Part Title>: 'demo-script/part2.md'
+    - Part 3 - <Part Title>: 'demo-script/part3.md'
+  - Conclusion: 'conclusion.md'
+
+# ─────────────────────────────────────────────
+# Theme  ← do not change
+# ─────────────────────────────────────────────
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - navigation.footer
+    - navigation.sections
+    - navigation.top
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - tables
