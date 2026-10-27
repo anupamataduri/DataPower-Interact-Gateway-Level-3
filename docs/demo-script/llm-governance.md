@@ -85,15 +85,12 @@ Here you can connect to AWS Secrets Manager, Azure Key Vault, or HashiCorp Vault
 
 ## Step 5 — View Exposed Operations
 
-**Action:** Click the **Select operations to expose** menu to view the list of operations.
+**Action:** In the **Select operations to expose** drop-down, you can see that four operations have been selected. These are the operations exposed through the Interact Gateway that will be available for assistants, agents, etc.
+
+!!! note
+    You cannot view the operations here, since the environment is read-only. However, you will be able to test them later in the demo.
 
 ![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/dbe9a9c8-181a-4796-b9ed-fbf496373982/user_cropped_screenshot_be16adb21afa47c0ba24fd3c468bc473_text_export.jpeg)
-
-You can see four operations exposed through the Interact Gateway that will be available for assistants, agents, etc.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/fa6184a9-06eb-4686-8dd8-e6cc6c6a4c9d/user_cropped_screenshot_606a7960e4e54e9bbea4f1b33706dc2e_text_export.jpeg)
-
-**Action:** Click the **menu** to collapse it.
 
 ---
 
