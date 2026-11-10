@@ -13,7 +13,7 @@ nav:
   - Prerequisites: 'prerequisites.md'
   - IBM DataPower Interact Gateway Overview: 'overview.md'
   - About ZillaForge: 'zillaforge.md'
-  - Environment Setup: 'environment.md'
+  - Demo Environment Availability: 'environment.md'
   - Demo Guidelines: 'demo-guidelines.md'
   - Demo Script:
     - Overview & Architecture: 'demo-script/architecture.md'

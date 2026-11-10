@@ -9,7 +9,7 @@ Christian Kopecki: Christian.Kopecki@ibm.com
 
 1\. Welcome to the DataPower Interact Gateway Level 3 Enablement Demo Guide. This guide is designed to provide technical sales professionals and business partners with a comprehensive understanding of IBM DataPower Interact Gateway. Through a real-world enterprise AI adoption scenario and a guided stand-and-deliver demonstration, this guide will equip learners with the knowledge and confidence needed to articulate how organizations can govern, secure, observe, and scale AI-initiated interactions.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/b4429c6f-6b3a-4c4d-a20b-4ab0276eb290/matched_image_action_0_d435cc6c677945dbb278373125c45671_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/b4429c6f-6b3a-4c4d-a20b-4ab0276eb290/matched_image_action_0_7ac24fd2ed924cd9be4fe9285b658a98_text_export.jpeg)
 
 
 #### About this Demo
@@ -68,132 +68,30 @@ ZillaForge uses Interact Gateway to:
 - Scale AI initiatives without rebuilding existing enterprise systems
 
 
-#### Access the Environment
+#### **Important Update: Demo Environment Availability**
 
 
-6\. The DataPower Interact Gateway demo environment runs in the cloud and can be reserved using the steps outlined in the next section. Once provisioned, you’ll receive all necessary access credentials.
+Alert: The Interact Gateway environment as part of API Connect SaaS used to develop this course and demo has been retired for the time being. As a result, you will not be able to complete the exercises in a live TechZone environment. We are working on updating the course to the Interact Gateway stand-alone environment.
 
-Because the platform is developed and updated continuously, its interface may evolve over time. Screenshots in this guide may differ slightly from what you see in the live environment, but the core functionality remains the same. If something looks different, take a moment to explore, it’s part of the learning experience.
+In the meanwhile, to ensure you can still complete the Level 3 enablement requirements, the **DataPower Interact Gateway Level 3 Clickthrough Demo** should be used as the primary demonstration experience. The clickthrough provides a guided walkthrough of the complete ZillaForge scenario and covers all screens and workflows included in the original live demo.
 
-**Disclaimer:**\
-Please be careful to stay within the demo path. Do not deviate, as changes could affect other users and disrupt the demo environment. Let's ensure everything runs smoothly for everyone involved.
+The objective remains the same: demonstrate the ability to position, explain, and showcase the capabilities of IBM DataPower Interact Gateway to a client audience.
 
 
-#### Environment Access Request
+6\. **Using the Clickthrough Demo** 
 
-
-7\. Log in and access the environment on IBM TechZone: <https://techzone.ibm.com/collection/ibm-integration-apic-and-idig-level-3>
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/77a99128-4665-4cb5-a1e8-ca9a51cd9d73/action-56e1c8d3a23141af946af052d191e1c4_1280b86e597b4563b249c2cbc1c0329b_text_export.jpeg)
-
-
-8\. Click the **Environments** tab.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/5996e94c-f769-4d84-948c-408768a02d7e/user_cropped_screenshot_136df8047bc340d698903c1c97e44cef_text_export.jpeg)
-
-
-9\. Hover over the IBM Cloud button and click **Reserve it.**
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/531afb63-1258-4dde-a9d7-019973b169c9/user_cropped_screenshot_472b79f576ed4bce839ca6af425fed76_text_export.jpeg)
-
-
-10\. In the Name field, type **DataPower Interact Gateway L3**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/fecbf784-8df8-476e-88e9-1f06fb2e00bc/user_cropped_screenshot_c86b75cc0d9142f0a0962ab3898377d8_text_export.jpeg)
-
-
-11\. In the Description field, type **Self-enablement**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/d948516e-131c-4762-8375-ac0ca1f25220/user_cropped_screenshot_5dc193a0ded6437faebf944b2c249cce_text_export.jpeg)
-
-
-12\. Click **Next**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-03/26ac0b99-def6-4fc9-ad23-7344b1f91142/user_cropped_screenshot_ff96ad80a8a948fb9d5c571456f9edf7_text_export.jpeg)
-
-
-13\. Click the **Learning** tile.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/3c6a82fd-6c6c-4836-b607-0d7a0be6b40b/user_cropped_screenshot_83aa003b3cff4d89883d51df51eeba32_text_export.jpeg)
-
-
-14\. Click **Next**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/00590155-704f-4ba1-a108-a9ad4067e778/user_cropped_screenshot_e55c2a60841047fdaa7a8f6e1b74ed54_text_export.jpeg)
-
-
-15\. Select a **Geography**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/c71bc5ee-5475-4a96-b8f5-d3dce41c0c21/user_cropped_screenshot_d4e164dbe26745a48ee29264e5ad1544_text_export.jpeg)
-
-
-16\. Click **Next**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/7d833c88-cc62-40aa-a5f0-2cacec7455f4/user_cropped_screenshot_7655caf9578449c9904807ab954f8ce9_text_export.jpeg)
-
-
-17\. In the Scheduling tab, ensure the **End date** is set to 3 days later and click **Next**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/f0b5dbdc-d0d3-45c2-a5a9-0dbd7176c733/user_cropped_screenshot_d76863466c4149d88a141932cd2ed4c3_text_export.jpeg)
-
-
-18\. In the Configuration tab, click **Review**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/a42fad99-da5f-4361-8a6c-ea43d02b5d6a/user_cropped_screenshot_0eb144d299a8443f90519b6ab71a9a23_text_export.jpeg)
-
-
-19\. Review all the details and select the **I agree...** check box.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/01a898d9-4966-4159-be7f-85a6cef18c31/user_cropped_screenshot_42eaa6e24884431fbd62e37c5209ba53_text_export.jpeg)
-
-
-20\. Click **Submit**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/17e6ab15-8576-4abf-af15-17e37f038b6c/user_cropped_screenshot_5f740413ec094827bdc7914617ead63d_text_export.jpeg)
-
-
-21\. A success message is displayed and you can track your request.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/3f2fd929-a07d-4546-938e-7c3462d89233/user_cropped_screenshot_75e4b4babc644e7d918650c0e37df5c5_text_export.jpeg)
-
-
-22\. You will receive an email when the environment is provisioned with instructions on how to access the environment.
-
-**Note to learners**: This action could take up to 15-20 minutes
-
-
-#### Accessing the Environment via IBM Technology Zone
-
-
-23\. Click on the **View** **your request** link in the email.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/dc822387-9f0f-4c0e-bf4f-4299158d0db2/user_cropped_screenshot_85ed4bf24dbe4f07a5d3c93b0f7eab2f_text_export.jpeg)
-
-
-24\. Click to expand the drop-down for the IBM DataPower Interact Gateway Level 3 item.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/07b75591-8099-4831-8b5a-c5ac63eddfc3/user_cropped_screenshot_d750effbcedf4659b4bcec8859333066_text_export.jpeg)
-
-
-25\. Scroll down on the reservation details page and you can find the Instance URL. Use your IBM w3/ID credentials to log in. Also, make a note of the credentials for the Developer Portal. You will use these later in the guide.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/3968c8c5-48b4-4367-a73f-8401628b8c70/user_cropped_screenshot_42e1f34842d2475c88b0f64ff7739f14_text_export.jpeg)
-
-
-26\. Once you connect, you can see the IBM Integration platform home page. Click the **right** arrow on the API Connect tile.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/bd15f5a7-fb77-460e-b085-2ce126abfbc4/user_cropped_screenshot_90f74b58e62b42f6a7fad381da751f07_text_export.jpeg)
-
-
-27\. You are now in API Connect.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-09-10/017d74ad-8a7e-42f6-908a-e1ae6edf5a21/screenshot_821e8f4697234b47a77ac479f160bb7f_text_export.jpeg)
+1. Launch the [**DataPower Interact Gateway Level 3 Clickthrough Demo**](https://yourlearning.ibm.com/activity/URL-D97B2BBEB1C5?planId=PLAN-B3CBC277DE69&sectionId=SECTION-A&planIdFromParentTab=PLAN-B3CBC277DE69&sectionIdFromParentTab=SECTION-A&planIdForChildTab=PLAN-B3CBC277DE69).
+2. You can turn off the dialog boxes and beacons while presenting.
+3. Progress through each section of the ZillaForge scenario in sequence.
+4. Use the provided narration and seller talking points from this guide when presenting.
+5. Advance through the clickthrough screens while explaining the business challenge, solution, and outcomes.
+6. Use the Demo Evaluation Checklist to verify that all required topics have been covered.
 
 
 #### Demo Guideline
 
 
-28\. **Use Case Introduction**\
+7\. **Use Case Introduction**\
 \
 ZillaForge, a fictional global leader in industrial automation, is entering a new phase of digital transformation by adopting AI assistants and agents to automate work, accelerate decision-making, and interact directly with enterprise systems. While the company has already invested in APIs, integrations, and reusable business services, it now faces a new challenge: how to safely expose those capabilities to AI while maintaining security, governance, and visibility.
 
@@ -202,7 +100,7 @@ To address this challenge, ZillaForge adopts IBM DataPower Interact Gateway.
 This transformation story forms the foundation of the Level 3 course. Through a guided stand-and-deliver demonstration, learners will see how organizations like ZillaForge can safely scale AI adoption by governing AI-initiated interactions without rebuilding existing systems or creating a separate AI governance stack.
 
 
-29\. **Demo Overview**
+8\. **Demo Overview**
 
 This demo provides a guided walkthrough of IBM DataPower Interact Gateway in the context of ZillaForge's AI adoption journey. It highlights how organizations can govern AI-initiated interactions while continuing to reuse existing APIs, integrations, and workflows.
 
@@ -214,7 +112,7 @@ The experience is read-only and follows a structured stand-and-deliver format, a
 #### Demo Script
 
 
-30\. **Overview and Architecture**
+9\. **Overview and Architecture**
 
 **Note to Learners**: The slides used in this section can be found [HERE](https://ibm.seismic.com/Link/Content/DCR6bJQ9J86M8GWP7cR79QJPG8J3).
 
@@ -226,10 +124,10 @@ As AI adoption grows, ZillaForge faces a new challenge. AI assistants and agents
 
 To address these challenges, ZillaForge adopts IBM DataPower Interact Gateway. Acting as an AI mediation governance gateway, it helps the company govern AI interactions, expose existing enterprise capabilities to AI without rebuilding them, and apply consistent security, policy enforcement, and observability across AI-driven traffic. This demo follows ZillaForge's AI adoption journey, showing how Interact Gateway enables organizations to reuse existing APIs, integrations, and business services while bringing AI-initiated interactions under a consistent governance model.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/938d0203-4875-4a69-8b7c-f305b939f0f5/matched_image_action_24_1c2bb07e44cb44329b8fd4889d9cffd3_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/938d0203-4875-4a69-8b7c-f305b939f0f5/matched_image_action_24_68efee6a947840c48e133f62a77310f8_text_export.jpeg)
 
 
-31\. **Narration:**
+10\. **Narration:**
 
 This illustration represents the architecture used in the ZillaForge demo and the digital foundation the company established before introducing AI. It shows how years of investment in APIs, application integration, events, governance, and reusable business services created a platform of enterprise capabilities that can now be safely consumed by AI assistants and agents.
 
@@ -239,34 +137,31 @@ Rather than creating new capabilities for AI, ZillaForge can reuse the APIs, int
 
 This architecture forms the foundation for the rest of the demo. Throughout the walkthrough, learners will see how ZillaForge extends its existing digital investments to support AI adoption while maintaining the governance, visibility, and operational control required at enterprise scale.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/1ff74f4d-8d35-4945-b6a3-9818949d4611/matched_image_action_25_8370799c2ab84ba695f6a53af76e735e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/1ff74f4d-8d35-4945-b6a3-9818949d4611/matched_image_action_25_b0d6c87ceeda4012aa26f51ea3a36c02_text_export.jpeg)
 
 
-32\. **Narration:**
+11\. **Narration:**
 
 ZillaForge has already begun adopting AI across different parts of the business. Teams are experimenting with AI services, connecting them to business applications, and enabling access to enterprise capabilities. In the early stages, these initiatives are often managed independently, with individual teams using their own model access, credentials, and integration approaches. While this works for small-scale experimentation, it quickly becomes difficult to manage as AI adoption expands across the organization.
 
 As more AI assistants and agents begin interacting with enterprise systems, new governance challenges emerge. Organizations need to understand who is using which models, what business capabilities are being accessed, what policies are being applied, and how AI-driven activity can be monitored and controlled. Traditional governance models were designed for applications and APIs, not autonomous AI interactions. This creates a governance gap that requires a consistent control point where security, policies, credentials, monitoring, and visibility can be applied across all AI interactions. IBM DataPower Interact Gateway is designed to address that gap.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/9d4f4ba8-3c1a-417e-a161-0d3bd48d3d13/matched_image_action_26_245d29ef927e47139e0be0536235e8bb_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-12/9d4f4ba8-3c1a-417e-a161-0d3bd48d3d13/matched_image_action_26_ddf611bead11494c979d968e8e4d12d2_text_export.jpeg)
 
 
-33\. **Narration:**
+12\. **Narration:**
 
 IBM DataPower Interact Gateway sits between AI consumers and enterprise systems, providing a controlled interaction layer that governs and secures AI-driven interactions.
 
 Think of Interact Gateway much like an API gateway for the AI era. It doesn't build the applications, models, or agents. Instead, it governs how they interact with enterprise services. APIs provide capabilities, events provide awareness, workflows provide guardrails, and policies provide trust. Together, these elements enable organizations to scale AI interactions with the visibility, security, and control required for enterprise adoption.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96c28c7f-bb98-4aaf-bc1d-57e753df459f/screenshot_f7677dc449fd4e8bb62bed48c513f6ce_text_export.jpeg)
-
-
-Alert: **Note:** This guide was originally developed using DataPower Interact Gateway within API Connect SaaS. An updated version based on Interact Gateway standalone is planned and will be published in the future.
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96c28c7f-bb98-4aaf-bc1d-57e753df459f/screenshot_b0b0d75c095849edb6fc3e61dba5152b_text_export.jpeg)
 
 
 #### Part 1: ZillaForge AI Assistant for Internal Operations Queries
 
 
-34\. **Narration:**
+13\. **Narration:**
 
 ZillaForge employees access a centralized Operations Portal to interact with enterprise information and capabilities. Rather than navigating multiple systems, users can simply ask questions through an AI-powered assistant integrated directly into the portal.
 
@@ -275,100 +170,100 @@ The assistant is connected to enterprise capabilities through an MCP endpoint ex
 The goal is to demonstrate how AI can safely access enterprise capabilities through a controlled, observable interaction layer.
 
 
-35\. **Actions:**
+14\. **Actions:**
 
 Navigate to <http://zillaforge-env.eba-xavdcupg.us-east-1.elasticbeanstalk.com/>
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_12bec6531bc64c7da393f03b9023dae3_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-11/1a1bd530-d04c-4428-89d4-91fa2cf62a68/action-9b94ee5d40b2468eaf5b516006a56eac_ddfe585d843748e490ba932179a27785_text_export.jpeg)
 
 
-36\. **Narration:**
+15\. **Narration:**
 
 Now let's see how a business user interacts with enterprise capabilities through the AI assistant.
 
 From the user's perspective, this is a simple conversational experience. Behind the scenes, however, the interaction is routed through a governed entry point where security, policies, credentials, and observability are applied consistently.
 
 
-37\. **Actions:**
+16\. **Actions:**
 
 Click the ZillaForge **AI assistant** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/560bc599-d52f-495e-9fc0-63671268bda8/user_cropped_screenshot_16c63845a7044b15bd760fbd1703290d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/560bc599-d52f-495e-9fc0-63671268bda8/user_cropped_screenshot_e6ecc1d15803420d8118dfb93fb501c5_text_export.jpeg)
 
 
-38\. Let's start with a few business questions. In the Input field, type the first question "**What products are offered for predictive maintenance and industrial monitoring?**"
+17\. Let's start with a few business questions. In the Input field, type the first question "**What products are offered for predictive maintenance and industrial monitoring?**"
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/824e5cf5-0417-445f-a709-27c7e5d539af/user_cropped_screenshot_95fd6efe5c06454cb42a83c266ac14ab_text_export.jpeg)
-
-
-39\. Click **Send**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/39500f3f-c311-4c44-ae4a-35075daa3d72/user_cropped_screenshot_3b47c4eb555d4402bb3a09eb9ae4e0c1_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/824e5cf5-0417-445f-a709-27c7e5d539af/user_cropped_screenshot_2a24a7bfdd2345e5a3ca4ecf4e32f518_text_export.jpeg)
 
 
-40\. The assistant has found the available products.
+18\. Click **Send**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/39500f3f-c311-4c44-ae4a-35075daa3d72/user_cropped_screenshot_4f41340d8cda457897a3137c2c7cc8c2_text_export.jpeg)
+
+
+19\. The assistant has found the available products.
 
 Click **Show more** to see the full response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0adcc52b-9cea-44a8-bd18-46f76b49c09c/user_cropped_screenshot_681fa587045640a2a8d9570a39bf64e7_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0adcc52b-9cea-44a8-bd18-46f76b49c09c/user_cropped_screenshot_3d7b30e320b149f597bf5f1107d0b7b7_text_export.jpeg)
 
 
-41\. **Narration:**
+20\. **Narration:**
 
 Let's take that a step further. Rather than simply finding information, we'll now ask the assistant to analyze what it knows about ZillaForge's products and make a recommendation based on a customer's business requirements.
 
 This allows the assistant to combine information from multiple ZillaForge capabilities, apply reasoning, and recommend the solution that best aligns with the customer's needs. Instead of just discovering available products, we're using enterprise knowledge to support a real business decision.
 
 
-42\. **Actions:**
+21\. **Actions:**
 
 In the Input field, type the question "**Which ZillaForge product would you recommend for a factory looking to reduce unplanned equipment downtime?**"
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/89485a69-19cb-4eeb-be0f-df6c8c1d0c4b/user_cropped_screenshot_7798f3a7527642b4a11ad66031c9c992_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/89485a69-19cb-4eeb-be0f-df6c8c1d0c4b/user_cropped_screenshot_d1ae48c34d9144c5a99dd6472b6173ae_text_export.jpeg)
 
 
-43\. Click **Send**.
+22\. Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/33364435-7b54-401a-b562-d62ad704102c/user_cropped_screenshot_e3419362485c4eb4a1eb99493892158a_text_export.jpeg)
-
-
-44\. Click **Show more** to see the entire response.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/948adec9-784c-4179-bc70-5a7729d669f1/user_cropped_screenshot_f07f2fe49e004634ae1f7ff3bf5d040d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/33364435-7b54-401a-b562-d62ad704102c/user_cropped_screenshot_c7e7adbee43b4d86b7f79c83d9f04043_text_export.jpeg)
 
 
-45\. Notice that the assistant hasn't simply picked a product. It's recommended a complete solution and explained why the products work together.
+23\. Click **Show more** to see the entire response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/206803c5-6667-42af-b53d-6ff5820e8ef6/user_cropped_screenshot_f8c3af9ce0034020a8a2bd1f23aa0428_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/948adec9-784c-4179-bc70-5a7729d669f1/user_cropped_screenshot_2410f137f2e9401fa52a4c97ab2f7074_text_export.jpeg)
 
 
-46\. **Narration:**
+24\. Notice that the assistant hasn't simply picked a product. It's recommended a complete solution and explained why the products work together.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/206803c5-6667-42af-b53d-6ff5820e8ef6/user_cropped_screenshot_2011de6bf8cf4597bc15b4988b2d686f_text_export.jpeg)
+
+
+25\. **Narration:**
 
 Let's now see if the assistant can connect recommendations to operational data across the business.
 
 Within ZillaForge, product information, customer demand, and fulfilment activity exist across multiple enterprise systems. The real value comes when the assistant can combine information from those different capabilities to provide meaningful business context and actionable insights.
 
 
-47\. **Actions:**
+26\. **Actions:**
 
 In the Input box, type **"Which customer orders related to predictive maintenance solutions are currently awaiting fulfilment?"**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96f80c47-9360-4453-a456-2358008dbc09/user_cropped_screenshot_b4bbcc24dc634b568914e050f4e963bb_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/96f80c47-9360-4453-a456-2358008dbc09/user_cropped_screenshot_9765d8c8655d47a5b35249dd6ada02ff_text_export.jpeg)
 
 
-48\. Click **Send**.
+27\. Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2fcc5813-7f88-4863-b064-eec19a75701d/user_cropped_screenshot_44829dc8978643ed9123320bd1c800e2_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/2fcc5813-7f88-4863-b064-eec19a75701d/user_cropped_screenshot_95aaf0a484d443f69fd14dbdb4e4aa9c_text_export.jpeg)
 
 
-49\. Click **Show more** to see the full response.
+28\. Click **Show more** to see the full response.
 
 Here the assistant has identified the customer orders that are currently awaiting fulfilment and related to predictive maintenance solutions.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/248ad69c-22e8-44bf-9886-6b462f7b74dd/user_cropped_screenshot_f21fec333a8243dbac7265f2a96cbddd_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/248ad69c-22e8-44bf-9886-6b462f7b74dd/user_cropped_screenshot_18413f9043ae423a8c954e7ce7cf06b7_text_export.jpeg)
 
 
-50\. **Narration:**
+29\. **Narration:**
 
 So far, we've seen how the assistant can help answer questions about ZillaForge products and connect those recommendations to customer demand and fulfilment activity.
 
@@ -377,26 +272,26 @@ Let's now move from business demand into operational performance. One of the key
 To answer this question, the assistant needs to do more than look up product information. It must understand the customer's business objective, evaluate the available ZillaForge solutions, and recommend the option that best aligns with operational needs.
 
 
-51\. **Actions:**
+30\. **Actions:**
 
 In the Input box, type "**A customer wants to improve asset reliability across multiple manufacturing sites. Which ZillaForge solution would you recommend and why?“**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/a53441fd-e7e0-4fe8-94ad-6fceda4a3ceb/user_cropped_screenshot_77234d87f3f645b8ad4085fe533f9bb3_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/a53441fd-e7e0-4fe8-94ad-6fceda4a3ceb/user_cropped_screenshot_a6f183047c7a4b7994c7fde8ddcf4cf2_text_export.jpeg)
 
 
-52\. Click **Send**.
+31\. Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/93ade370-b968-4dc2-b5a6-0ba9d182987f/user_cropped_screenshot_36dfe35249a04dde96bb845a2d3afe3c_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/93ade370-b968-4dc2-b5a6-0ba9d182987f/user_cropped_screenshot_3071807474ed458eb04cf071ea433c37_text_export.jpeg)
 
 
-53\. The recommendation is supported by operational information. You can see several assets with elevated failure risk. The assistant is also identifying a pattern across multiple sites rather than highlighting an isolated device issue.
+32\. The recommendation is supported by operational information. You can see several assets with elevated failure risk. The assistant is also identifying a pattern across multiple sites rather than highlighting an isolated device issue.
 
 Click **Show more** to see the full response.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0cbd481a-02d7-4e7b-a353-189fdd79738d/user_cropped_screenshot_c7f55f6f289f417f86fd7a4ac578e6ca_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/0cbd481a-02d7-4e7b-a353-189fdd79738d/user_cropped_screenshot_006576a6ad7e4f449a5cee54ef4798ec_text_export.jpeg)
 
 
-54\. **Narration:**
+33\. **Narration:**
 
 Let's finish with our most comprehensive scenario. A customer is planning a digital transformation initiative focused on IoT, predictive maintenance, and automation and wants to understand which ZillaForge solution best supports that strategy.
 
@@ -405,24 +300,24 @@ This question requires the assistant to bring together multiple sources of infor
 Rather than looking at a single system or data source, the assistant must combine information from across the business to provide a complete answer.
 
 
-55\. **Actions:**
+34\. **Actions:**
 
 In the Input field, type "**A manufacturing customer is planning a digital transformation initiative focused on IoT, predictive maintenance, and automation. Which ZillaForge products best support this strategy, and what existing customer demand should the business be aware of before planning deployment?**"
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/8abd49d9-883b-417c-aa0d-73c2e5a7c63d/user_cropped_screenshot_4f198c6f3de94377acb18b0b412ba175_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/8abd49d9-883b-417c-aa0d-73c2e5a7c63d/user_cropped_screenshot_0a2957db451043faa3c6d13e26d8d144_text_export.jpeg)
 
 
-56\. Click **Send**.
+35\. Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/40a45308-5a99-4f0a-b594-243fd8ebd130/user_cropped_screenshot_76f142759f7d4cbfb5f667a37f80bb89_text_export.jpeg)
-
-
-57\. The assistant has recommended the ZillaForge solutions that best align with the customer's digital transformation objectives while also highlighting existing customer demand that should be considered during planning.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/53f13ebd-25f0-454b-b62e-855d64343560/user_cropped_screenshot_a6f2df823bef4cbaadd9b1056e17cde2_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/40a45308-5a99-4f0a-b594-243fd8ebd130/user_cropped_screenshot_a2c95e592c7740278de29f29bd5ca577_text_export.jpeg)
 
 
-58\. **Wrap-up:**
+36\. The assistant has recommended the ZillaForge solutions that best align with the customer's digital transformation objectives while also highlighting existing customer demand that should be considered during planning.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/53f13ebd-25f0-454b-b62e-855d64343560/user_cropped_screenshot_4104742940b4469ea5fb5d4218762464_text_export.jpeg)
+
+
+37\. **Wrap-up:**
 
 We've seen how the ZillaForge Operations Portal allows users to interact with enterprise capabilities through a simple AI-powered experience.
 
@@ -434,14 +329,14 @@ Let's look behind the scenes and see how ZillaForge exposed these enterprise cap
 #### Part 2: Explore Governed MCP Tools
 
 
-59\. **Narration:**
+38\. **Narration:**
 
 So far, we've focused on the experience of the business user. We saw how employees can interact with ZillaForge's enterprise capabilities through a simple AI assistant and receive recommendations, insights, and answers drawn from systems across the organization.
 
 Now, we'll look at how ZillaForge used IBM DataPower Interact Gateway to transform existing enterprise services into AI-ready capabilities.
 
 
-60\. **Narration:**
+39\. **Narration:**
 
 We're now in API Connect. Here we're looking at the existing enterprise APIs that provide the business capabilities used across the ZillaForge environment.
 
@@ -452,27 +347,27 @@ This approach allows ZillaForge to leverage existing enterprise assets while mai
 To do that, ZillaForge created a project dedicated to its MCP tools. Let's open that project and see how existing enterprise capabilities are transformed into AI-ready tools that can be consumed through Interact Gateway.
 
 
-61\. **Actions:**
+40\. **Actions:**
 
 In API Connect, click the project **ZFmcp**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/9c3b83a4-9500-4eaf-be08-60d0e5197550/user_cropped_screenshot_537c1e65d62e4d27afeabb30b6e1b2f6_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/9c3b83a4-9500-4eaf-be08-60d0e5197550/user_cropped_screenshot_0590c3369a8149c89e33ec94513f9ab7_text_export.jpeg)
 
 
 Tip: **Important:** Once you open the project, use the **view selector in the upper-right corner** to switch to the **AI view**. This reveals the AI-specific capabilities, including MCP tools and related AI assets that are not visible in the standard API development view.
 
 
-62\. Click **API View**.
+41\. Click **API View**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/c4c921db-780c-4b42-803a-06a68e67b617/user_cropped_screenshot_0ee5b60919d04d4aac175f84c3ae037d_text_export.jpeg)
-
-
-63\. Select **AI View**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/47573a9a-6a0d-4908-ab43-b18c4eb4780e/user_cropped_screenshot_58f2148f68cd4cef8ac20085b36be75b_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/c4c921db-780c-4b42-803a-06a68e67b617/user_cropped_screenshot_eee88bc3719440f2995d4c7eed91117b_text_export.jpeg)
 
 
-64\. **Narration:**
+42\. Select **AI View**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/47573a9a-6a0d-4908-ab43-b18c4eb4780e/user_cropped_screenshot_a5574f289b3f4b90aa0f7312be22c0ee_text_export.jpeg)
+
+
+43\. **Narration:**
 
 Here are the MCP servers that ZillaForge created from its existing enterprise APIs and services.
 
@@ -483,40 +378,40 @@ In the first part of the demo, we saw the AI assistant answering questions about
 Let's open the MCP servers and see how ZillaForge transformed existing enterprise APIs into an AI-ready capability.
 
 
-65\. **Actions:**
+44\. **Actions:**
 
 In the Explorer pane, under MCP servers, click **factoryapis-server-n9ipb.**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/5dc0052a-88cb-428a-97b1-74bf5b147fed/user_cropped_screenshot_7dd987e1bee949e1ba6ec09d9ea16283_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/5dc0052a-88cb-428a-97b1-74bf5b147fed/user_cropped_screenshot_0a60625054494bebb2a9bc09eaef8c7d_text_export.jpeg)
 
 
-66\. **Narration:**
+45\. **Narration:**
 
 Here we can see the MCP server that was generated from the Factory API. The operations defined in the original API have been converted into AI-ready MCP tools, such as list_device and list_service_request.
 
 Each MCP tool represents a business capability that AI assistants and agents can discover and invoke.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/4e36a056-1169-4b85-9adb-48752628a1db/user_cropped_screenshot_10ca7935cc83409ba412dee38d61293b_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/4e36a056-1169-4b85-9adb-48752628a1db/user_cropped_screenshot_0269be1a3c4542f88f83e487d860a92c_text_export.jpeg)
 
 
-67\. **Narration:**
+46\. **Narration:**
 
 ZillaForge has also created MCP servers for its Inventory API and Order API, following the same approach.
 
 
-68\. **Actions:**
+47\. **Actions:**
 
 Click **inventoryapis-server-ow85v** and review the MCP tools.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/015c50f5-1e9c-42f6-b179-1a7fd47ff7d1/user_cropped_screenshot_0ced61aa00f54e67a6f19e6225fa30cd_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/015c50f5-1e9c-42f6-b179-1a7fd47ff7d1/user_cropped_screenshot_5046e724d38f4df8a413ffa80113689b_text_export.jpeg)
 
 
-69\. Click **orderapis-server-lzsrh** and review the MCP tools.
+48\. Click **orderapis-server-lzsrh** and review the MCP tools.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/7a2212ca-9305-446b-b7c5-9be6fa71db82/user_cropped_screenshot_e02d2df44e6e42e98c57a78a06c34f7f_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/7a2212ca-9305-446b-b7c5-9be6fa71db82/user_cropped_screenshot_38c8c5f6e71c424996636951785ffb47_text_export.jpeg)
 
 
-70\. **Narration:**
+49\. **Narration:**
 
 The next step for ZillaForge is to apply governance.
 
@@ -525,103 +420,103 @@ Here, we're looking at the policy flow associated with the MCP tools. ZillaForge
 These policies allow ZillaForge to apply security, transformation, rate limiting, authorization and other controls consistently across AI interactions. This is where IBM DataPower Interact Gateway moves beyond simply exposing APIs as AI tools.
 
 
-71\. **Actions:**
+50\. **Actions:**
 
 Under Policy sequences, click the policy **zfmcp-freeflowpolicysequence-lzsrh1.0.**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/5b008085-c426-48f5-8af4-e7078d7fd3d8/user_cropped_screenshot_9c5af65b04624258b59bfd139217f271_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/5b008085-c426-48f5-8af4-e7078d7fd3d8/user_cropped_screenshot_eca356531dca4549866af6350efc799b_text_export.jpeg)
 
 
-72\. **Actions:**
+51\. **Actions:**
 
 In the Assembly flow, click the **Invoke** node.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/ca5171a2-e4bf-4aa3-bce9-c4c8119f9aa8/user_cropped_screenshot_3f29af54a2dc479dbe37c6477394ab9e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/ca5171a2-e4bf-4aa3-bce9-c4c8119f9aa8/user_cropped_screenshot_d51e1f70f93c4df98a5e47fbd3519a73_text_export.jpeg)
 
 
-73\. **Narration:**
+52\. **Narration:**
 
 The MCP tools used by the ZillaForge Operations Portal are connected to an existing API that is already hosted and managed in webMethods API Gateway.
 
 This reinforces an important principle behind ZillaForge's AI strategy: there is no need to build new back-end services specifically for AI. Instead, existing enterprise capabilities that are already exposed, managed, and governed through API management platforms can be reused and made available to AI assistants and agents through the Interact Gateway.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/418732d1-7abb-4486-8e36-838ca6dcdd4a/user_cropped_screenshot_655d906897ee44fc85fc7213cf9134d0_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/418732d1-7abb-4486-8e36-838ca6dcdd4a/user_cropped_screenshot_38f3f62dc2a5416c9f4417e8838c1112_text_export.jpeg)
 
 
-74\. **Actions:**
+53\. **Actions:**
 
 Click the **Set** node.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/030cc10e-e154-4703-9928-5b16a2c9eaeb/user_cropped_screenshot_dfed7d6d593a47dfa6ad13643f8c9c93_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/030cc10e-e154-4703-9928-5b16a2c9eaeb/user_cropped_screenshot_28f5f21faeed4262bff62e80ee7be397_text_export.jpeg)
 
 
-75\. This policy sets the required request headers to ensure the MCP tool sends properly formatted requests to the backend API.
+54\. This policy sets the required request headers to ensure the MCP tool sends properly formatted requests to the backend API.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/ee1a951f-594e-487c-beb7-93ed69a86425/user_cropped_screenshot_a2f13a3b2350491ea3f5c855ef48eed5_text_export.jpeg)
-
-
-76\. Click the next **Set** node.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/11a1b855-8b8f-42d2-964c-115548a0445d/user_cropped_screenshot_efccda5ba5974b69b3214e1bbfee36fc_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/ee1a951f-594e-487c-beb7-93ed69a86425/user_cropped_screenshot_695dd9aa0cc74a11995da180daf8cd83_text_export.jpeg)
 
 
-77\. **Narration:**
+55\. Click the next **Set** node.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-14/11a1b855-8b8f-42d2-964c-115548a0445d/user_cropped_screenshot_bbd718414e2d4a5ba68bff0c5b83f730_text_export.jpeg)
+
+
+56\. **Narration:**
 
 Here we're supplying the required API key. The purpose here is simply to validate the API and confirm the capability is working correctly.
 
 This is a good example of how existing security controls continue to apply. The MCP tool doesn't bypass the API's security requirements; it consumes the API using the same governance and authentication mechanisms already in place.
 
 
-78\. Review the policy details and click the **Close** icon to close the pane.
+57\. Review the policy details and click the **Close** icon to close the pane.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/b2a47711-ef7e-46ec-b294-933909c62895/user_cropped_screenshot_82d32a5f3abf4750ba9b993a512d24e4_text_export.jpeg)
-
-
-79\. You can review the other two policies and see how they are set up.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/eddd7f01-9ad9-4cb3-84c3-067090db7fcf/user_cropped_screenshot_731dfac2f0ef4934a48f2b3578bd0aa1_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/b2a47711-ef7e-46ec-b294-933909c62895/user_cropped_screenshot_03ed85c7b8e144a4a1eec144a2b3512d_text_export.jpeg)
 
 
-80\. **Narration:** 
+58\. You can review the other two policies and see how they are set up.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/eddd7f01-9ad9-4cb3-84c3-067090db7fcf/user_cropped_screenshot_f3330851852b4d27b8fdd727f0fc0915_text_export.jpeg)
+
+
+59\. **Narration:** 
 
 Once the MCP tools have been published, they are exposed through a governed MCP endpoint that can be consumed by AI assistants, agents, and applications.
 
 We'll now navigate to the catalog to locate the published MCP endpoint.
 
 
-81\. **Actions:**
+60\. **Actions:**
 
 On the left navigation pane, click the **Manage** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/1efcefd4-e199-4bb1-a300-78377b6ea9e7/user_cropped_screenshot_05c13d96977a4cb592e9313a17b1f2c9_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/1efcefd4-e199-4bb1-a300-78377b6ea9e7/user_cropped_screenshot_516bda7148c34f0eae1b97d557a464cf_text_export.jpeg)
 
 
-82\. Click **Interact Gateway MCP**.
+61\. Click **Interact Gateway MCP**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/1a16ffbe-afdc-4ffd-8b62-8e754812bb8d/user_cropped_screenshot_dfeb2bcd49064fa8b7f2e14b2bc804e0_text_export.jpeg)
-
-
-83\. You can see all the published assets in the Interact Gateway MCP catalog. If the list is long, you can choose to filter to view only MCP Servers.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/b6cb9f9d-2917-48a5-b83f-ed53fcd4c5f1/user_cropped_screenshot_1b2b74b8c0964e1d8d69ed398ab731bd_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/1a16ffbe-afdc-4ffd-8b62-8e754812bb8d/user_cropped_screenshot_f052129bb5f74dc9aa478fa4b8924f90_text_export.jpeg)
 
 
-84\. For the inventoryapis-server-ow85v, click the **three dots** icon.
+62\. You can see all the published assets in the Interact Gateway MCP catalog. If the list is long, you can choose to filter to view only MCP Servers.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/0e920588-84ab-4e84-b8b4-8f9a85340585/user_cropped_screenshot_12303d67acf1422bbaed31495aa398a0_text_export.jpeg)
-
-
-85\. Click **View endpoints**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/f33f9e4a-64a6-4d86-911a-b96a7fac87cb/user_cropped_screenshot_b5f7b4b6433a4b38bb14a16d416194d3_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/b6cb9f9d-2917-48a5-b83f-ed53fcd4c5f1/user_cropped_screenshot_03efed5b938f4daa98f1da6600db90df_text_export.jpeg)
 
 
-86\. Click **Copy** to copy the endpoint. You can use this MCP endpoint with applications, assistants or AI agents as needed.
+63\. For the inventoryapis-server-ow85v, click the **three dots** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/ce92a78f-e4b3-4da7-baec-055d09bd9878/user_cropped_screenshot_45e2f444ead04f1abc7e9ec6361eadf9_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/0e920588-84ab-4e84-b8b4-8f9a85340585/user_cropped_screenshot_4f79f1a4ecc847aea01e13cb336a62b1_text_export.jpeg)
 
 
-87\. **Wrap-up:**
+64\. Click **View endpoints**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/f33f9e4a-64a6-4d86-911a-b96a7fac87cb/user_cropped_screenshot_203da1f4df4a48eb9a19d339948eb9d2_text_export.jpeg)
+
+
+65\. Click **Copy** to copy the endpoint. You can use this MCP endpoint with applications, assistants or AI agents as needed.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-27/ce92a78f-e4b3-4da7-baec-055d09bd9878/user_cropped_screenshot_54497562631f47feab2cbad14ea15e63_text_export.jpeg)
+
+
+66\. **Wrap-up:**
 
 Rather than building new services for AI, ZillaForge reused existing enterprise APIs, applied governance policies, and published the resulting MCP tools through the Interact Gateway.
 
@@ -631,7 +526,7 @@ By following this approach, organizations can safely make enterprise capabilitie
 #### Part 3: Register and Govern LLM Providers
 
 
-88\. **Narration:**
+67\. **Narration:**
 
 So far, we've seen how ZillaForge exposes enterprise capabilities as governed MCP tools that can be consumed by AI assistants and agents. ZillaForge also needs a way to manage and control access to the foundation models and LLM providers that power its AI experiences.
 
@@ -642,7 +537,7 @@ Rather than allowing applications and agents to connect directly to external mod
 This gives ZillaForge a centralized approach to AI governance. The organization can manage which models are available, control access to approved providers, monitor usage, and apply the same governance principles already used for APIs and enterprise services to its LLM interactions.
 
 
-89\. **Narration:**
+68\. **Narration:**
 
 Before registering an LLM provider, ZillaForge performs a one-time setup activity to securely manage credentials and access tokens.
 
@@ -651,50 +546,50 @@ Organizations can securely store and manage secrets using AWS Secrets Manager, A
 This approach improves security, simplifies credential management, and allows ZillaForge to securely authenticate with external LLM providers.
 
 
-90\. **Actions:**
+69\. **Actions:**
 
 On the top right corner, click **Instance Settings**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/cdf08e5c-de48-4eed-b9bb-173e0d3037c4/user_cropped_screenshot_b3c66e8371cf4712b2e3e0ecc6cab4a2_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/cdf08e5c-de48-4eed-b9bb-173e0d3037c4/user_cropped_screenshot_525f423749054bfc917f020aa9bc255f_text_export.jpeg)
 
 
-91\. On the Instance settings page, click the **Secrets** tab.
+70\. On the Instance settings page, click the **Secrets** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/4b0be1fa-802d-4868-b832-58276669d5ae/user_cropped_screenshot_ad1f113d4551409c8585c3db78a0fcd3_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/4b0be1fa-802d-4868-b832-58276669d5ae/user_cropped_screenshot_c1896bfc14ba4928823a37a09967f29e_text_export.jpeg)
 
 
-92\. Here you can connect to AWS Secrets Manager, Azure Key Vault or HashiCorp Vault to manage secrets for your Interact Gateway.
+71\. Here you can connect to AWS Secrets Manager, Azure Key Vault or HashiCorp Vault to manage secrets for your Interact Gateway.
 
 Click **Back** once you are done.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/6b20fa92-0d5d-46da-a67c-90fb43610a2e/user_cropped_screenshot_248b1c043d5f4c408eb24857c3ee32f6_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/6b20fa92-0d5d-46da-a67c-90fb43610a2e/user_cropped_screenshot_b7450098205f4cde9b52aee6a90861b2_text_export.jpeg)
 
 
-93\. **Narration:**
+72\. **Narration:**
 
 Let's now look at how ZillaForge manages access to external foundation models. In this demo, ZillaForge has registered **AWS Bedrock** as an LLM provider.
 
 We'll open the Bedrock project and examine how the provider was configured. In addition to the provider registration itself, you'll see the policy sequence associated with the LLM endpoint. Just as we saw with MCP tools, ZillaForge can apply governance controls before requests are sent to the model provider.
 
 
-94\. **Actions:**
+73\. **Actions:**
 
 In API Studio, click the **ZFBedrock** project.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/bb8644da-2f70-4d97-b1a1-655c7fc4091a/user_cropped_screenshot_2a37b7466dae48e89c97f5ae488d5f99_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/bb8644da-2f70-4d97-b1a1-655c7fc4091a/user_cropped_screenshot_390838e91dd04f1db6a0b9ee66888475_text_export.jpeg)
 
 
 Tip: **Important:** Once you open the project, if you're not in AI view, use the **view selector in the upper-right corner** to switch to the **AI view**. This reveals the AI-specific capabilities, including MCP tools and related AI assets that are not visible in the standard API development view.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/26d22f12-8c4e-47e0-bcf9-0522c68d7f3c/screenshot_b848e57524214fd3be8951527cefb861_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/26d22f12-8c4e-47e0-bcf9-0522c68d7f3c/screenshot_2e5ae0ce20204683befa6753533c23c0_text_export.jpeg)
 
 
-95\. On the Explorer pane, under LLM providers, click **bedrock-conn | 1.0**.
+74\. On the Explorer pane, under LLM providers, click **bedrock-conn | 1.0**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/ff941500-fe41-4dee-8230-38123bf8e5ee/user_cropped_screenshot_e5d6772357304a08a7a495936a9ffa0b_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/ff941500-fe41-4dee-8230-38123bf8e5ee/user_cropped_screenshot_01a339c193a24b868d4efe01d17d6e2c_text_export.jpeg)
 
 
-96\. **Narration:**
+75\. **Narration:**
 
 Here we're looking at the configuration of a registered LLM provider.
 
@@ -703,77 +598,74 @@ ZillaForge defined the connection details for the provider, including the base p
 This gives ZillaForge control over which model capabilities are available to applications, assistants, and agents, ensuring that only approved operations are exposed through the Interact Gateway.
 
 
-97\. **Actions:**
+76\. **Actions:**
 
-Click the **Select operations to expose** menu to view the list of operations.
+In the **Select operations to expose** drop-down, you can see that four operations have been selected. These are the operations exposed through the Interact Gateway that will be available for assistant, agents etc.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/dbe9a9c8-181a-4796-b9ed-fbf496373982/user_cropped_screenshot_ac0e2ce6ba004b13a895ca4c39efa271_text_export.jpeg)
+**Note**: You cannot view the operations here, since the environment is read-only. However you will be able to test them later in the demo.
 
-
-98\. You can see four operations exposed through the Interact Gateway that will be available for assistant, agents etc. Click the **menu** to collapse it.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/fa6184a9-06eb-4686-8dd8-e6cc6c6a4c9d/user_cropped_screenshot_62b74a46b5dc46cca7dfc66c72f61278_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/dbe9a9c8-181a-4796-b9ed-fbf496373982/user_cropped_screenshot_89633a39adbf477bbec26e6338219fa5_text_export.jpeg)
 
 
-99\. **Narration:**
+77\. **Narration:**
 
 You can also view the connection details. This configuration defines how Interact Gateway connects to the external LLM service. You can see the provider URL, the authentication configuration, and the secret that will be used to securely authenticate requests.
 
 Notice the API key secret name field. This references the secret that was configured earlier in the Secrets section.
 
 
-100\. **Actions:**
+78\. **Actions:**
 
 Scroll down to view the connection details.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/dc822367-ef12-40be-afaf-15784401bf9f/user_cropped_screenshot_e8168599b0314b1c9919440d29a63ae9_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/dc822367-ef12-40be-afaf-15784401bf9f/user_cropped_screenshot_f75f458db4e943b1a265efd16cf8485f_text_export.jpeg)
 
 
-101\. The TLS client profile, defines the TLS configuration used when establishing secure connections to the external provider.
+79\. The TLS client profile, defines the TLS configuration used when establishing secure connections to the external provider.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5b45059f-29dd-469d-8205-5a8d8946f1d7/user_cropped_screenshot_2badd783e4544a0599b87daf9bba1cf6_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5b45059f-29dd-469d-8205-5a8d8946f1d7/user_cropped_screenshot_24d6c4df2b0a47ab98b92571e6afdffe_text_export.jpeg)
 
 
-102\. **Narration:**
+80\. **Narration:**
 
 Now let's look at the **policy sequence** associated with the Bedrock provider.
 
 Just as we applied governance to MCP tools, ZillaForge can apply governance to LLM interactions. The policy sequence defines what happens when a request is sent to AWS Bedrock, allowing the organization to inspect, secure, transform, monitor, or control requests before they reach the external model provider.
 
 
-103\. **Actions:**
+81\. **Actions:**
 
 Under LLM providers, click **freeflowpolicysequence-bedrock-conn-75trd**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/7d4b6c7a-74fd-4665-a77c-66027ab19ba1/user_cropped_screenshot_41ca262606e7434fa6c7576d6b31d59d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/7d4b6c7a-74fd-4665-a77c-66027ab19ba1/user_cropped_screenshot_42afc80be0264101b7591edbef9ec00c_text_export.jpeg)
 
 
-104\. Click **ExtractIdentity**.
+82\. Click **ExtractIdentity**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5e646565-b687-45a8-8fd5-e8288713d1d7/user_cropped_screenshot_f5413cb96ac34283aaeeed863e732b8f_text_export.jpeg)
-
-
-105\. This operation extracts the client credentials from the incoming request by reading the **X-IBM-Client-Id** and **X-IBM-Client-Secret** HTTP headers. The identity information can then be used by subsequent policies for authentication, authorization, rate limiting, auditing, and other governance controls.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/fd06fa54-9383-4396-83dc-c387de165a5d/user_cropped_screenshot_4e1b3291e72045b39d05379e6e28a7ee_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5e646565-b687-45a8-8fd5-e8288713d1d7/user_cropped_screenshot_53bdb31dada14aa4a839c4f09d52b506_text_export.jpeg)
 
 
-106\. Click the close icon to close the policy pane.
+83\. This operation extracts the client credentials from the incoming request by reading the **X-IBM-Client-Id** and **X-IBM-Client-Secret** HTTP headers. The identity information can then be used by subsequent policies for authentication, authorization, rate limiting, auditing, and other governance controls.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/0787bffe-310c-4fc6-a2fd-802f642a6109/user_cropped_screenshot_063f28a5a8c74eebb00ca3e90eaa331b_text_export.jpeg)
-
-
-107\. Scroll to the right to view other operations.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/b245f547-7a54-4144-b392-84cfaee48a13/user_cropped_screenshot_b199dc7c4e1f421986057bac689ab7fa_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/fd06fa54-9383-4396-83dc-c387de165a5d/user_cropped_screenshot_85121fbb982b46d189a65828b0eb2c01_text_export.jpeg)
 
 
-108\. Here you can see separate operations have been configured for **chat completions**, **embeddings**, and **model discovery**. Each operation represents a specific model capability that can be invoked through the governed provider endpoint.
+84\. Click the close icon to close the policy pane.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/1121b197-9d4b-473a-ad53-120b6f990009/user_cropped_screenshot_34e7789285304a49b551661b31ceeeba_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/0787bffe-310c-4fc6-a2fd-802f642a6109/user_cropped_screenshot_cd5d673e726c49e68902ade2b12347e4_text_export.jpeg)
 
 
-109\. **Wrap-up:**
+85\. Scroll to the right to view other operations.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/b245f547-7a54-4144-b392-84cfaee48a13/user_cropped_screenshot_32882767102d473f98829325a2092819_text_export.jpeg)
+
+
+86\. Here you can see separate operations have been configured for **chat completions**, **embeddings**, and **model discovery**. Each operation represents a specific model capability that can be invoked through the governed provider endpoint.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/1121b197-9d4b-473a-ad53-120b6f990009/user_cropped_screenshot_8596d40a3e4546c489287161649f7b2e_text_export.jpeg)
+
+
+87\. **Wrap-up:**
 
 We've seen how ZillaForge can register external LLM providers, securely manage credentials and connectivity, and apply governance controls through policy sequences before requests reach the model provider.
 
@@ -783,7 +675,7 @@ By managing LLM access through the Interact Gateway, organizations can centraliz
 #### Part 4: Discover and Consume AI Assets Through the Developer Portal
 
 
-110\. **Narration:**
+88\. **Narration:**
 
 So far, we've focused on how ZillaForge creates, governs, and publishes AI-ready capabilities. The next step is to look at the consumer experience.
 
@@ -792,51 +684,51 @@ Now, we're moving into the **Developer Portal**, where published AI assets can b
 Just as the Developer Portal has traditionally been used to discover APIs, ZillaForge can now use it to publish and share governed AI assets, making it easier for teams to find and consume trusted capabilities while maintaining enterprise governance and control.
 
 
-111\. **Actions:**
+89\. **Actions:**
 
 From the left navigation menu, click **Manage.**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/cb078ced-a0f6-4173-94a6-944d256d1bcc/user_cropped_screenshot_4be7f7186bb5449dae4e8721b4ef781e_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/cb078ced-a0f6-4173-94a6-944d256d1bcc/user_cropped_screenshot_39cd9d102036410ea0bcb2a0bd87c26e_text_export.jpeg)
 
 
-112\. Click the **Interact Gateway MCP** catalog.
+90\. Click the **Interact Gateway MCP** catalog.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/11dcf64e-4343-4f1f-bf0f-80112b9921b3/user_cropped_screenshot_91bd515e711049a1bb73a42fc991fe2f_text_export.jpeg)
-
-
-113\. Click the **Catalog settings** tab.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/47acdc6b-228a-448c-97a6-a277ef8ec332/user_cropped_screenshot_f1a35a0bb3c64e0e9646a25d777ae40d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/11dcf64e-4343-4f1f-bf0f-80112b9921b3/user_cropped_screenshot_b57e26dc9ded40f5bcbf5d8db16fb505_text_export.jpeg)
 
 
-114\. On the left pane, click **Portal**.
+91\. Click the **Catalog settings** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/bc606c34-f154-407f-8965-1cc0835c321b/user_cropped_screenshot_dacd1a1381e34a85a530610a78e2e768_text_export.jpeg)
-
-
-115\. Click the **Portal endpoint URL** link.<https://prod773957.devportal.a-fra-c2.apiconnect.ipaas.ibmappdomain.cloud>
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/9ba68e95-0772-4fdb-bc40-76bbd6e5b77a/user_cropped_screenshot_7524871271d24198ba09f96e2098a40d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/47acdc6b-228a-448c-97a6-a277ef8ec332/user_cropped_screenshot_4a4c0ddc5e214d9cb1d0ac4128ed7dae_text_export.jpeg)
 
 
-116\. The Developer Portal is displayed. On the top bar, click **Sign in**.
+92\. On the left pane, click **Portal**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/87dbb946-5d15-4a31-8583-fc992753bb68/user_cropped_screenshot_026ed611f71641adbb89ef6d83442ddc_text_export.jpeg)
-
-
-117\. Sign in with the Developer Portal log in details you received in your Techzone reservation email.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/48e04d5f-3e35-4bba-a70b-8277450e3448/user_cropped_screenshot_114f3362b1e54216add77c7076d44610_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/bc606c34-f154-407f-8965-1cc0835c321b/user_cropped_screenshot_bbe3808910c04392b03f32d8afd0d227_text_export.jpeg)
 
 
-118\. The Developer Portal home page is displayed. 
+93\. Click the **Portal endpoint URL** link.<https://prod773957.devportal.a-fra-c2.apiconnect.ipaas.ibmappdomain.cloud>
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/9ba68e95-0772-4fdb-bc40-76bbd6e5b77a/user_cropped_screenshot_7053ba36a380408ebbf2b9c1222a9ea1_text_export.jpeg)
+
+
+94\. The Developer Portal is displayed. On the top bar, click **Sign in**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/87dbb946-5d15-4a31-8583-fc992753bb68/user_cropped_screenshot_ee940f080d7d422fa9c1198bf688896f_text_export.jpeg)
+
+
+95\. Sign in with the Developer Portal log in details you received in your Techzone reservation email.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/48e04d5f-3e35-4bba-a70b-8277450e3448/user_cropped_screenshot_d26f0b0d4b6647e498a03a2c4378c5b0_text_export.jpeg)
+
+
+96\. The Developer Portal home page is displayed. 
 
 From the left navigation menu, click **Asset gallery**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/4ea36ee2-728c-497d-a32d-72ceca6b8c60/user_cropped_screenshot_8d34824002e447b297276dc5b0123a0d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/4ea36ee2-728c-497d-a32d-72ceca6b8c60/user_cropped_screenshot_a50a723a84764d84a38161a4f679be06_text_export.jpeg)
 
 
-119\. **Narration:**
+97\. **Narration:**
 
 The Asset Gallery is where published AI assets become discoverable to consumers. We can see the MCP servers and capabilities that have been made available through the platform.
 
@@ -845,50 +737,50 @@ Think of this as the catalog where applications, assistants, and agents can disc
 Now that ZillaForge has registered and governed access to AWS Bedrock, we will validate the provider and its available model capabilities.
 
 
-120\. **Actions:**
+98\. **Actions:**
 
 On the api-bedrock-conn-75rtd tile, click the **Tryout** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/043e0399-f8b2-4fa0-8551-3f5270ab0efd/user_cropped_screenshot_813dbd682a424b61bffced7814da40d0_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/043e0399-f8b2-4fa0-8551-3f5270ab0efd/user_cropped_screenshot_c20accf2e436488a9a7aa90aa0640a6f_text_export.jpeg)
 
 
-121\. Here you can see the same four operations you noticed while registering the LLM and in the policy sequence.
+99\. Here you can see the same four operations you noticed while registering the LLM and in the policy sequence.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/86dabc22-a72d-42d0-b698-79fc885f39ef/user_cropped_screenshot_ec3480b6935242d589a3c7155066a279_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/86dabc22-a72d-42d0-b698-79fc885f39ef/user_cropped_screenshot_347e7d67ae284b0ebceb35299fa1d7d4_text_export.jpeg)
 
 
-122\. **Narration:**
+100\. **Narration:**
 
 Let's start by testing the Models operation. This operation retrieves the list of foundation models that are available through the AWS Bedrock provider. Applications, assistants, and agents can use this information to discover which approved models are available before they begin generating responses.
 
 For ZillaForge, this is a simple but important validation step. We're confirming that the gateway can successfully connect to the provider, authenticate the request, and return a valid response. If this operation succeeds, we know the connection and governance configuration are working as expected.
 
 
-123\. **Actions:**
+101\. **Actions:**
 
 On the left navigation pane, click **> /models** to expand it.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/3bab6f78-77e9-486d-ac2b-11adcff763e6/user_cropped_screenshot_952cbd4dc2334091862ea642faa8773d_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/3bab6f78-77e9-486d-ac2b-11adcff763e6/user_cropped_screenshot_f8f788b0e78a4bd0a0c5ec506d8826e9_text_export.jpeg)
 
 
-124\. Click **GET**.
+102\. Click **GET**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/6545ab6c-3103-4f0b-8805-5c6643976a3a/user_cropped_screenshot_1c5262225ff44cdba30bfe2c4aa591ee_text_export.jpeg)
-
-
-125\. Click **Send**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/a1178fad-99e5-4a83-a062-3c72ca03582e/user_cropped_screenshot_d97fd619ed0840a18addcdc370484d9f_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/6545ab6c-3103-4f0b-8805-5c6643976a3a/user_cropped_screenshot_ce5953a4a79347688cdbf04de806b2af_text_export.jpeg)
 
 
-126\. Scroll down to view the response.
+103\. Click **Send**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/a1178fad-99e5-4a83-a062-3c72ca03582e/user_cropped_screenshot_a4cdabed61464179a6b0852202a5b8d7_text_export.jpeg)
+
+
+104\. Scroll down to view the response.
 
 You are now looking at the response from Bedrock. In this case, we're retrieving the models that are available for use.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/6d24bc4c-788b-4845-a401-5f563690c462/user_cropped_screenshot_9d186af1bd954eeea5de7699ad109190_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/6d24bc4c-788b-4845-a401-5f563690c462/user_cropped_screenshot_38651eb9a286484dbe340be7a8364528_text_export.jpeg)
 
 
-127\. **Narration:**
+105\. **Narration:**
 
 Next, let's test the **Chat Completions** operation, which is the capability the ZillaForge AI assistant uses to generate responses.
 
@@ -897,26 +789,26 @@ Chat Completions sends a prompt to the foundation model and returns a generated 
 For ZillaForge, this test validates that a request can successfully pass through the Interact Gateway, have the appropriate governance policies applied, reach the approved LLM provider, and return a response. A successful result confirms that the end-to-end AI interaction is working as expected.
 
 
-128\. **Actions:**
+106\. **Actions:**
 
 On the left navigation pane, click **> /chat/completions** to expand it and click **POST**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/e07a15b6-1fbc-4461-9869-8a53cffbf0fe/user_cropped_screenshot_44de0a7c8f1c4aebabbffbc937fd4009_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/e07a15b6-1fbc-4461-9869-8a53cffbf0fe/user_cropped_screenshot_8d1eeceaf3e64aea8b51baedc4aeaee0_text_export.jpeg)
 
 
-129\. Click the **Request Body** tab.
+107\. Click the **Request Body** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/4740b087-bd11-411c-8b16-8a378ca16af6/user_cropped_screenshot_977e6297087644888482c4c5bb41b011_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/4740b087-bd11-411c-8b16-8a378ca16af6/user_cropped_screenshot_0491d21ef8ce46e1a1937e6601777553_text_export.jpeg)
 
 
-130\. **Narration:**
+108\. **Narration:**
 
 Now we will provide the prompt that will be sent to the model. In this case we are asking a simple question: "What is Amazon Bedrock? Explain in 3 short bullet points.“
 
 The goal isn't the question itself, it's simply to prove we can send a prompt through the gateway and get a response back.
 
 
-131\. **Actions:**
+109\. **Actions:**
 
 Copy and paste the following into the request body.
 
@@ -940,20 +832,20 @@ Copy and paste the following into the request body.
 
 **}**
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/d2e5168d-ab88-414e-b6cf-a1d523c6be2b/user_cropped_screenshot_bcdf6335868b4e9f98ec3ad265c75a82_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-28/d2e5168d-ab88-414e-b6cf-a1d523c6be2b/user_cropped_screenshot_79c2d4b2520a45d7859a703967a020cc_text_export.jpeg)
 
 
-132\. Click **Send**.
+110\. Click **Send**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5484b4f7-bbac-411c-93eb-8ec4a76d75d3/user_cropped_screenshot_b10935326f15480cb5e31adcc304e120_text_export.jpeg)
-
-
-133\. Scroll down to review the generated response.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/a44ee566-3583-460b-98bc-6bd8c5331afa/user_cropped_screenshot_892a829cd9f34972a1e0932c29c43381_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/5484b4f7-bbac-411c-93eb-8ec4a76d75d3/user_cropped_screenshot_4a74de0702064db9846ab3fbacb5538e_text_export.jpeg)
 
 
-134\. **Wrap-up:**
+111\. Scroll down to review the generated response.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-18/a44ee566-3583-460b-98bc-6bd8c5331afa/user_cropped_screenshot_05699ed081234763bfcbe59861184e58_text_export.jpeg)
+
+
+112\. **Wrap-up:**
 
 We've seen how ZillaForge can securely connect to and govern external LLM providers through the Interact Gateway.
 
@@ -965,7 +857,7 @@ For ZillaForge, this provides a consistent way to manage, secure, and monitor ac
 #### Part 5: Monitor and Optimize AI Interactions with Analytics
 
 
-135\. **Narration:**
+113\. **Narration:**
 
 Throughout this demo, we've seen how ZillaForge governs AI interactions, publishes AI-ready capabilities, and manages access to LLM providers. The final step is visibility.
 
@@ -974,88 +866,88 @@ As AI adoption grows, organizations need to understand how AI assistants, agents
 These insights help ZillaForge not only govern AI interactions, but also continuously optimize and improve them as usage scales across the business.
 
 
-136\. **Actions:**
+114\. **Actions:**
 
 Switch back to API Connect. Click the **Manage** icon.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/c513e7e9-cf4f-4c1a-a6b0-2b3caeb43b4e/user_cropped_screenshot_b1f7ea218ade474086c0b7bd74a771a5_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/c513e7e9-cf4f-4c1a-a6b0-2b3caeb43b4e/user_cropped_screenshot_636fdc4ebada4d8ea4d988d1092e569e_text_export.jpeg)
 
 
-137\. Click the **Interact Gateway MCP** catalog.
+115\. Click the **Interact Gateway MCP** catalog.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/4b40bdd3-98a5-488a-8de0-84d73e99da17/user_cropped_screenshot_e5e3b809ea2f4a70b1c5b5d623b8d180_text_export.jpeg)
-
-
-138\. Let's view the analytics for the Inventory MCP server. For the inventoryapis-server-ow85v server, click the **Analytics** icon.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/52cd1109-aeb2-42c3-8ace-7f69a24f6007/user_cropped_screenshot_205c825f13334df5afca54a723bdf257_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/4b40bdd3-98a5-488a-8de0-84d73e99da17/user_cropped_screenshot_a943a2fd0fbc410dbe931cf20bb6c184_text_export.jpeg)
 
 
-139\. **Narration:** 
+116\. Let's view the analytics for the Inventory MCP server. For the inventoryapis-server-ow85v server, click the **Analytics** icon.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/52cd1109-aeb2-42c3-8ace-7f69a24f6007/user_cropped_screenshot_127669bd2772453fb0839d42ead28423_text_export.jpeg)
+
+
+117\. **Narration:** 
 
 This is the **Discover** view, which provides a real-time view of MCP and AI interaction activity.
 
 Here you can see interaction volume over time and a list of individual transactions, including status, method, response time, and other operational details. This allows ZillaForge teams to quickly identify activity patterns and drill into specific interactions for further investigation.
 
 
-140\. **Actions:**
+118\. **Actions:**
 
 Click a transaction to drill-down and view more details.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/92134ee7-09db-4509-af3b-4b94794ef233/user_cropped_screenshot_8aff7ac798b14250a48773566a9f2c7f_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-17/92134ee7-09db-4509-af3b-4b94794ef233/user_cropped_screenshot_852b46947f4c4f8ea0a06880a9943c31_text_export.jpeg)
 
 
-141\. **Narration:**
+119\. **Narration:**
 
 Here we're looking at AI-Powered insights.
 
 Rather than teams manually inspect logs and trace requests through the gateway, ZillaForge can use AI-generated summaries to quickly understand what happened during an interaction. The analysis automatically highlights key information such as request status, latency, policy execution, client details, and potential bottlenecks.
 
 
-142\. **Actions:**
+120\. **Actions:**
 
 Click the **Backend request and response** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/defe04dd-0fea-4dd8-a950-792be0f784fa/user_cropped_screenshot_6cf29af185a7486899cc70f4a0fb5fe8_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/defe04dd-0fea-4dd8-a950-792be0f784fa/user_cropped_screenshot_7c3dc6d9174f4e64a5120a3e225cb94a_text_export.jpeg)
 
 
-143\. **Narration:**
+121\. **Narration:**
 
 This section provides ZillaForge with an end-to-end view of what happened during the interaction, including the incoming consumer request, the request sent to the backend service, the backend response, and the final response returned to the consumer.
 
 
-144\. **Actions:**
+122\. **Actions:**
 
 Click the **Policy flow latencies** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/59ee5977-e9db-4d30-b5ab-21c4710e61b6/user_cropped_screenshot_d62a8d5683f94123b102912d7f5f45c9_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/59ee5977-e9db-4d30-b5ab-21c4710e61b6/user_cropped_screenshot_784eea141b9f4389a31a78bb9cdf4b1a_text_export.jpeg)
 
 
-145\. **Narration:**
+123\. **Narration:**
 
 This view shows the policy flow latency breakdown for a specific request, helping ZillaForge identify exactly where time was spent as the interaction moved through the gateway and pinpoint potential bottlenecks in the AI, MCP, or API processing pipeline.
 
 
-146\. **Actions:**
+124\. **Actions:**
 
 Click the **Event record** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/57bd636f-e3b0-4f3c-92d3-6a4f94fd81aa/user_cropped_screenshot_2369ff87905d44c8b68302d65771c2a0_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/57bd636f-e3b0-4f3c-92d3-6a4f94fd81aa/user_cropped_screenshot_2b87940bb0a44610adb2a9f4b64ed2c8_text_export.jpeg)
 
 
-147\. **Narration:**
+125\. **Narration:**
 
 This view shows the raw event record for the transaction, giving ZillaForge complete access to the underlying request, response, consumer, gateway, and operational metadata that was captured during the interaction for auditing, troubleshooting, and compliance purposes.
 
 
-148\. **Actions:**
+126\. **Actions:**
 
 Scroll down to view the complete record.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/6dc26ed3-063e-4749-95f3-220d0a79914a/screenshot_77ea2a64a4344e76b2d28780c7b877fc_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/6dc26ed3-063e-4749-95f3-220d0a79914a/screenshot_4b788ec5aa6b48219c5250bab1a3ae2a_text_export.jpeg)
 
 
-149\. **Narration:**
+127\. **Narration:**
 
 Next, we'll move to reports. 
 
@@ -1064,57 +956,57 @@ The Reports section helps ZillaForge move beyond individual transactions and und
 Using these built-in reports, ZillaForge can monitor AI, MCP, and API adoption over time, identify the most active consumers and applications, track consumption patterns, analyze call volumes, and understand how enterprise capabilities are being used across the organization. These insights help platform teams make informed decisions around capacity planning, governance, optimization, and future AI investments.
 
 
-150\. **Actions:**
+128\. **Actions:**
 
 In the Analytics side navigation, click **Reports** to expand it.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/375799bb-7437-46e0-a188-269c649a9164/user_cropped_screenshot_2a15c61a02d8439a8f64489724d3718a_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/375799bb-7437-46e0-a188-269c649a9164/user_cropped_screenshot_3a8b9e8c3e0e455eae170aca9b8fd692_text_export.jpeg)
 
 
-151\. Let's look at a few reports. Click **AI Platform report**.
+129\. Let's look at a few reports. Click **AI Platform report**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/eba8fe89-f735-48f6-9c47-6076b9552deb/user_cropped_screenshot_327f794cc77a4e008e79cd9640188d50_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/eba8fe89-f735-48f6-9c47-6076b9552deb/user_cropped_screenshot_866c4e0a0fbf4aa0a8699cd918c67db5_text_export.jpeg)
 
 
-152\. **Narration:**
+130\. **Narration:**
 
 The AI Platform Report gives ZillaForge a high-level view of how AI capabilities are being used across the organization.
 
 This report summarizes overall platform usage, including total AI calls, provider adoption, consumer activity, success rates, and response time trends. The built-in AI Insights & Analysis feature automatically highlights key observations and recommendations, helping teams quickly identify usage patterns, provider concentration, performance trends, and potential areas for optimization.
 
 
-153\. **Actions:**
+131\. **Actions:**
 
 On the AI Insights & analysis section of the report, click **Show detailed analysis**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/1f8a5d3d-3095-4c93-bbb2-ad12d6c856a0/user_cropped_screenshot_2a0a6701d72c4f9aa1cc3e8ddee5c6ab_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/1f8a5d3d-3095-4c93-bbb2-ad12d6c856a0/user_cropped_screenshot_9558d277ae0940c4a233083b5a6fffa7_text_export.jpeg)
 
 
-154\. Review Key Insights and recommendations. Scroll down to view other sections of the report.
+132\. Review Key Insights and recommendations. Scroll down to view other sections of the report.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/bdc886dd-c2d8-4703-89da-43394a744d3e/user_cropped_screenshot_123b910a035e48429cf963ac33ac4dfe_text_export.jpeg)
-
-
-155\. When you're done reviewing the report, click **Consumption report**.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/ddb82e61-e99b-4a5d-b83a-8eb789142cff/user_cropped_screenshot_88fedd52cc324436bda6fa3eb6ccb199_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/bdc886dd-c2d8-4703-89da-43394a744d3e/user_cropped_screenshot_b85a04576bb747dbb4a3b38f58b43647_text_export.jpeg)
 
 
-156\. **Narration:**
+133\. When you're done reviewing the report, click **Consumption report**.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/ddb82e61-e99b-4a5d-b83a-8eb789142cff/user_cropped_screenshot_b9ae0a9e32f34b06b37603e4933a999e_text_export.jpeg)
+
+
+134\. **Narration:**
 
 The Consumption Report helps ZillaForge understand overall platform usage and consumption trends across its AI, MCP, and API assets.
 
 By tracking call volumes and response status codes over time, ZillaForge can monitor platform adoption, identify growth patterns, and quickly spot increases in errors or unusual activity.
 
 
-157\. **Actions:**
+135\. **Actions:**
 
 Scroll down to review all the sections of the report.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/d04863c5-735c-43a2-af22-f2b0b60f550f/user_cropped_screenshot_7f333b638d694c77bc7c0371dbc5cb5a_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/d04863c5-735c-43a2-af22-f2b0b60f550f/user_cropped_screenshot_fe30826868df4bdc9b3fc165a3d862d2_text_export.jpeg)
 
 
-158\. ### Narration:
+136\. ### Narration:
 
 Next, let's review some dashboards.
 
@@ -1125,38 +1017,38 @@ Unlike reports, which focus on historical trends and analysis, dashboards provid
 For ZillaForge, these dashboards provide a centralized view of enterprise AI adoption, helping teams make faster operational decisions and maintain visibility as AI usage continues to grow.
 
 
-159\. **Actions:**
+137\. **Actions:**
 
 In the Analytics side navigation, click **Dashboards** to expand it.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/84d79fef-f07e-4070-a0c2-4d9cc756d07d/user_cropped_screenshot_c187e7fab0c54323ac591a1fafda5f03_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/84d79fef-f07e-4070-a0c2-4d9cc756d07d/user_cropped_screenshot_d1a2e077977e4935acd5f0e19ddab0d5_text_export.jpeg)
 
 
-160\. Let's look at a few dashboards. Click **MCP**.
+138\. Let's look at a few dashboards. Click **MCP**.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/64237f71-ff5e-4cd1-a409-5d2d1b48c17d/user_cropped_screenshot_0df3b938e07e4b8c9124340dbe6903be_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/64237f71-ff5e-4cd1-a409-5d2d1b48c17d/user_cropped_screenshot_3c4c746fcb9e4cd88baf10191e8f05c3_text_export.jpeg)
 
 
-161\. **Narration:**
+139\. **Narration:**
 
 The MCP Dashboard gives ZillaForge visibility into how AI assistants, agents, and applications are using MCP-based capabilities across the organization.
 
 From a single view, teams can track total MCP requests, monitor MCP server adoption, identify the most frequently used tools, and understand which MCP servers are generating the most activity. The usage trends and call patterns help ZillaForge understand which enterprise capabilities are delivering the most value and where demand is growing.
 
 
-162\. **Actions:**
+140\. **Actions:**
 
 Scroll down to review various sections of the dashboard.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/14c339ed-1424-4505-a5a0-3e6c6c4b7adb/user_cropped_screenshot_a9e93e9197334f6c8480bbfb9a347a29_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/14c339ed-1424-4505-a5a0-3e6c6c4b7adb/user_cropped_screenshot_5aa739fba3b84c81834ed5b44fc89726_text_export.jpeg)
 
 
-163\. When you're done, click the **AI LLM** dashboard from the side navigation.
+141\. When you're done, click the **AI LLM** dashboard from the side navigation.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/f89718a3-b839-4383-a199-ed0a4b2eacd1/user_cropped_screenshot_8cebc4ec28ef40b695624ceeeb042d74_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/f89718a3-b839-4383-a199-ed0a4b2eacd1/user_cropped_screenshot_53cb3aa8c0a7428c9efa98154469c99d_text_export.jpeg)
 
 
-164\. ### Narration:
+142\. ### Narration:
 
 The AI LLM Dashboard gives ZillaForge visibility into how foundation models are being used across the organization.
 
@@ -1165,24 +1057,24 @@ From a single dashboard, teams can track total LLM requests, token consumption, 
 These insights are especially valuable for governance and cost management.
 
 
-165\. **Actions:**
+143\. **Actions:**
 
 Review sections of the Overview tab. When you're done, click the **Detailed usage** tab.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/9acfff80-584b-4d73-9012-56d7d7dd6fb2/user_cropped_screenshot_f6630aee2a0c49a29815b0792683428c_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/9acfff80-584b-4d73-9012-56d7d7dd6fb2/user_cropped_screenshot_3efeeaf9d51748bfa177e8489d3e91b1_text_export.jpeg)
 
 
-166\. Scroll down to review various sections describing detailed usage.
+144\. Scroll down to review various sections describing detailed usage.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/584d10db-03fa-41b8-ba07-6097d788968e/user_cropped_screenshot_dc06087c7b624a719ff3bc4181355ff8_text_export.jpeg)
-
-
-167\. When you're done, click the **Gateway** dashboard from the left navigation.
-
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/64134873-191c-457b-9fc8-d1d8902e85a5/user_cropped_screenshot_fa50e426c3e8499781b7317d429f72c3_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/584d10db-03fa-41b8-ba07-6097d788968e/user_cropped_screenshot_881ff071c859424b8b9a0d6ff142e66f_text_export.jpeg)
 
 
-168\. **Narration:**
+145\. When you're done, click the **Gateway** dashboard from the left navigation.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/64134873-191c-457b-9fc8-d1d8902e85a5/user_cropped_screenshot_26e5d0ae698a49e78a3888ffd744413d_text_export.jpeg)
+
+
+146\. **Narration:**
 
 The Gateway Dashboard gives ZillaForge visibility into the health and performance of the gateway infrastructure that powers its AI, MCP, and API interactions.
 
@@ -1191,19 +1083,19 @@ From this dashboard, operations teams can monitor request volumes and latency fo
 By tracking gateway utilization and response times over time, ZillaForge can make informed scaling decisions, troubleshoot infrastructure issues faster, and ensure that AI and API workloads continue to perform reliably as adoption grows across the enterprise.
 
 
-169\. **Actions:**
+147\. **Actions:**
 
 Click the gateway **Service** to expand it.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/368586d6-23a2-4fd6-b448-5512bd4141f4/user_cropped_screenshot_51fd125a41154e288729f00efc3077df_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/368586d6-23a2-4fd6-b448-5512bd4141f4/user_cropped_screenshot_674cf51852b6437e9ebadd9e43c9565d_text_export.jpeg)
 
 
-170\. Scroll down to review various sections of the dashboard.
+148\. Scroll down to review various sections of the dashboard.
 
-![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/cbd5408a-0e48-47f5-a68b-c817bb5df403/user_cropped_screenshot_b83ad3858074414aa2aeee4198295341_text_export.jpeg)
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-08-19/cbd5408a-0e48-47f5-a68b-c817bb5df403/user_cropped_screenshot_b971119945a74447ad8c7c01c20fe19b_text_export.jpeg)
 
 
-171\. **Wrap-up**
+149\. **Wrap-up**
 
 We've seen how ZillaForge uses analytics to gain visibility into AI, MCP, and API interactions across the organization.
 
@@ -1213,7 +1105,7 @@ For ZillaForge, analytics completes the governance story. It's not enough to exp
 #### Conclusion
 
 
-172\. Throughout this demo, we followed ZillaForge's journey as it expanded the use of AI across the enterprise while maintaining the governance, security, and operational control required for enterprise-scale adoption.
+150\. Throughout this demo, we followed ZillaForge's journey as it expanded the use of AI across the enterprise while maintaining the governance, security, and operational control required for enterprise-scale adoption.
 
 What started as a simple business user experience, an AI assistant helping employees answer questions about products, inventory, orders, and operations, demonstrated a much larger story. Behind every interaction, ZillaForge used IBM DataPower Interact Gateway to govern how AI assistants, agents, enterprise services, and foundation models interact with one another.
 
